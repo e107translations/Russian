@@ -1,23 +1,36 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/02 10:52:28
+|
+|        $Author: fsLeg $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LANCONTACT_00", "Свяжитесь с нами");
+define("LANCONTACT_00", "Связаться с нами");
 define("LANCONTACT_01", "Контактная информация");
 define("LANCONTACT_02", "Контактная форма");
-define("LANCONTACT_03", "Введите ваше имя:");
-define("LANCONTACT_04", "Введите свой адрес электронной почты:");
-define("LANCONTACT_05", "Тема сообщения:");
-define("LANCONTACT_06", "Сообщение:");
+define("LANCONTACT_03", "Введите ваше имя");
+define("LANCONTACT_04", "Введите свой адрес электронной почты");
+define("LANCONTACT_05", "Тема сообщения");
+define("LANCONTACT_06", "Сообщение");
 define("LANCONTACT_07", "Отправить копию этого сообщения на ваш адрес");
 define("LANCONTACT_08", "Отправить");
-define("LANCONTACT_09", "Ваше сообщение было отправлено.");
-define("LANCONTACT_10", "Существует проблема отправки вашего сообщения.");
-define("LANCONTACT_11", "Ваш адрес электронной почты не представляется valid.\\nPlease проверить его и повторите попытку.");
-define("LANCONTACT_12", "Ваше сообщение является слишком коротким.");
+define("LANCONTACT_09", "Ваше сообщение отправлено.");
+define("LANCONTACT_10", "Произошла ошибка при отправке вашего сообщения.");
+define("LANCONTACT_11", "Проверьте свой адрес электронной почты и попробуйте ещё раз.");
+define("LANCONTACT_12", "Ваше сообщение слишком короткое.");
 define("LANCONTACT_13", "Пожалуйста, укажите тему.");
-define("LANCONTACT_14", "Отправьте сообщение для:");
+define("LANCONTACT_14", "Отправить сообщение для");
 define("LANCONTACT_15", "Введен неправильный код");
-define("LANCONTACT_16", "Вы должны быть [регистрации] и подписали в использовать эту форму.");
+define("LANCONTACT_16", "Вы должны быть [зарегистрированы] и залогинены для использования этой формы.");
+define("LANCONTACT_17", "Введите ваше имя.");
+define("LANCONTACT_18", "Введите вашу электронную почту.");
+define("LANCONTACT_19", "Введите тему для вашего сообщения.");
+define("LANCONTACT_20", "Введите ваше сообщение для нас.");
+
+
+?>

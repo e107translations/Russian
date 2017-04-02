@@ -9,19 +9,18 @@
 |        $Author: admin $
 +---------------------------------------------------------------+
 */
-
 define("LANDT_01", "год");
 define("LANDT_02", "месяц");
 define("LANDT_03", "неделя");
 define("LANDT_04", "день");
 define("LANDT_05", "час");
 define("LANDT_06", "минута");
-define("LANDT_07", "второй");
+define("LANDT_07", "секунда");
 define("LANDT_01s", "лет");
-define("LANDT_02s", "месяца");
-define("LANDT_03s", "недели");
+define("LANDT_02s", "месяцев");
+define("LANDT_03s", "недель");
 define("LANDT_04s", "дней");
-define("LANDT_05s", "часа");
+define("LANDT_05s", "часов");
 define("LANDT_06s", "минут");
 define("LANDT_07s", "секунд");
 define("LANDT_08", "мин.");

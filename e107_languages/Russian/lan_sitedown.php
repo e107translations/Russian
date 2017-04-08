@@ -1,9 +1,17 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/02 18:44:00
+|
+|        $Author: fsLeg $
++---------------------------------------------------------------+
+*/
 define("PAGE_NAME", "Сайт временно закрыт");
 define("LAN_SITEDOWN_00", "временно закрыт");
-define("LAN_SITEDOWN_01", "Мы временно закрыли сайт для некоторых основных обслуживания. Это не должно занять слишком много времени - Пожалуйста проверьте обратно вскоре, извинения за неудобства.");
+define("LAN_SITEDOWN_01", "Сайт временно закрыт на техническое обслуживание. Это не должно занять много времени. Попробуйте зайти чуть позже. Приносим извинения за неудобства.");
+
+
+?>

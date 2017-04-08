@@ -254,6 +254,6 @@ define("LAN_SEND", "Отправить");
 define("LAN_HOLD", "Удерживайте");
 define("LAN_MAILOUT_260", "Тип пользователя");
 define("LAN_MAILOUT_261", "Порт SMTP");
-
+define("LAN_MAILOUT_262", "Предпросмотр шаблона");
 
 ?>

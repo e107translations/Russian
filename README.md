@@ -1,4 +1,4 @@
-# Russian Language Pack for e107 v2.1.5
+# Russian Language Pack for e107 v2.1.6
 
 Credits:
 

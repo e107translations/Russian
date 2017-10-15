@@ -25,4 +25,3 @@ define("UC_LAN_INVERT", "Не --CLASS--");
 define("UC_LAN_INVERTLABEL", "Все, кроме...");
 
 
-?>

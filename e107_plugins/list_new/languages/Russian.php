@@ -53,3 +53,5 @@ define("LIST_FORUM_4", "Ответы:");
 define("LIST_FORUM_5", "lastpost:");
 define("LIST_FORUM_6", "по:");
 define("LIST_LAN_1", "нет элементов в");
+define("LIST_DOWNLOAD_1", "загрузки");
+define("LIST_DOWNLOAD_2", "нет загрузки");

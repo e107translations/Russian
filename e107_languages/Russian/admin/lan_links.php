@@ -1,10 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LCLAN_15", "Название ссылки");
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/10/14 22:02:16
+|
+|        $Author: admin $
++---------------------------------------------------------------+
+*/
 define("LCLAN_19", "Ссылка открытого типа");
 define("LCLAN_20", "В том же окне");
 define("LCLAN_23", "Откроется в новом окне");
@@ -13,7 +17,6 @@ define("LCLAN_78", "Показать описание как экран Tip");
 define("LCLAN_79", "Описание будет отображаться при наведении указателя мыши на ссылку");
 define("LCLAN_80", "Активировать расширение подменю");
 define("LCLAN_81", "Только после нажатия кнопки их родителей будет отображать подменю. (Связь родительского отключен)");
-define("LCLAN_104", "Sublink из");
 define("LCLAN_105", "Функция");
 define("LCLAN_106", "Принадлежащие");
 define("LCLAN_107", "Позволяет переопределить URL-адрес с динамически создаваемых URL удобные для поисковых систем");
@@ -28,3 +31,4 @@ define("LINKLAN_6", "Создание sublinks от");
 define("LINKLAN_7", "Создание sublinks под какие ссылки?");
 define("LINKLAN_8", "Категории новостей");
 define("LINKLAN_9", "Скачать категории");
+define("LINKLAN_10", "Тема короткие номера");

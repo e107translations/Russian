@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/10/14 22:30:24
+|
+|        $Author: admin $
++---------------------------------------------------------------+
+*/
 
 define("UPLLAN_1", "Добавлено исключен из списка.");
 define("UPLLAN_2", "Параметры, сохраненные в базе данных");
@@ -44,5 +50,5 @@ define("UPLLAN_63", "Запись переехал в неделю. [x]");
 define("UPLLAN_64", "Управление скачать");
 define("UPLLAN_66", "Скачать путь ошибка");
 define("UPLLAN_68", "Ошибка SQL:");
-define("UPLLAN_69", "");
-define("UPLLAN_70", "");
+define("UPLLAN_69", "Импортированы");
+define("UPLLAN_70", "Отправить на [x]");

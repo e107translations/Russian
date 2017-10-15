@@ -1,9 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/10/14 22:31:45
+|
+|        $Author: admin $
++---------------------------------------------------------------+
+*/
 define("LAN_DL_OPTIONS", "Параметры");
 define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Общие");
 define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Отчетность");
@@ -36,7 +41,6 @@ define("DOWLAN_23", "Типы файлов");
 define("DOWLAN_24", "Загрузка обновления");
 define("DOWLAN_25", "Отправить скачать");
 define("DOWLAN_27", "Скачать");
-define("DOWLAN_28", "Нет");
 define("DOWLAN_31", "Категории");
 define("DOWLAN_32", "Загрузки");
 define("DOWLAN_33", "Вы уверены, что хотите удалить этот файл?");
@@ -141,3 +145,4 @@ define("DOWLAN_HELP_7", "Помощь для зеркала");
 define("DOWLAN_HELP_8", "Помощь для загрузки списка");
 define("DOWLAN_HELP_9", "Помощь для загрузки типов");
 define("DOWLAN_HELP_10", "Справка по параметрам загрузки");
+define("DOWLAN_29", "Просил");

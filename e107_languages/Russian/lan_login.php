@@ -9,7 +9,6 @@
 |        $Author: fsLeg $
 +---------------------------------------------------------------+
 */
-
 define("LAN_LOGIN_1", "Имя пользователя");
 define("LAN_LOGIN_2", "Пароль пользователя");
 define("LAN_LOGIN_3", "Защищённый сервер");
@@ -41,6 +40,10 @@ define("LAN_LOGIN_28", "Электронная почта");
 define("LAN_LOGIN_29", "Имя пользователя или электронная почта");
 define("LAN_LOGIN_30", "Ошибка при добавлении нового пользователя с альтернативной аутентификацией в БД");
 define("LAN_LOGIN_31", "Ваши учетные данные не могут быть добавлены в систему");
+define("LAN_LOGIN_32", "You are seeing this message because you are currently logged in as the Main Admin.");
+define("LAN_LOGIN_33", "[Вернуться на главную страницу]");
+define("LAN_LOGIN_34", "Регистрация пользователя и/или войти в настоящее время отключен.");
+define("LAN_LOGIN_35", "[Тем]");
 
 
 ?>

@@ -1,14 +1,18 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/10/14 22:01:14
+|
+|        $Author: admin $
++---------------------------------------------------------------+
+*/
 define("WMLAN_00", "Добро пожаловать сообщений");
-define("WMLAN_02", "Сообщение");
-define("WMLAN_04", "Текст сообщения");
 define("WMLAN_05", "Заключите");
 define("WMLAN_06", "Когда включен, сообщение будет отображаться внутри коробки");
 define("WMLAN_07", "Переопределения стандартной системы использовать короткий номер {WMESSAGE}:");
-define("WMLAN_09", "Сообщения не добро, еще");
-define("WMLAN_10", "Заголовок сообщения");
+define("WMLAN_12", "Приветственное сообщение справки");
+define("WMLAN_13", "Эта страница позволяет задать сообщение, которое будет отображаться в верхней части вашей главной странице все время, которое он активируется. Можно задать другое сообщение для гостей, зарегистрированных/вошедшего в члены и администраторов.");
+define("WMLAN_11", "Заключенный с Карусель");

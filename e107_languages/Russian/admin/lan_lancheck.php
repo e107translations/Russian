@@ -9,7 +9,6 @@
 |        $Author: admin $
 +---------------------------------------------------------------+
 */
-
 define("LAN_CHECK_2", "Проверить");
 define("LAN_CHECK_3", "Проверка");
 define("LAN_CHECK_4", "Отсутствует файл!");
@@ -21,12 +20,15 @@ define("LAN_CHECK_18", "Языковые файлы в стандартный ф
 define("LAN_CHECK_19", "Не-UTF-8 символов!");
 define("LAN_CHECK_20", "Создание языкового пакета");
 define("LAN_CHECK_21", "Проверить снова");
-define("LAN_CHECK_22", "Тема");
 define("LAN_CHECK_23", "Найденные ошибки");
-define("LAN_CHECK_24", "Резюме");
-define("LAN_CHECK_25", "Темы");
+define("LAN_CHECK_26", "Front");
 define("LAN_CHECK_PAGE_TITLE", "Языки");
 define("LAN_CHECK_27", "Количество найденных ошибок пакет языка");
+define("LAN_CHECK_28", "Идентичные");
+define("LAN_CHECK_29", "Идентичные строки (только предупреждение)");
+define("LAN_CHECK_30", "Отсутствует bbcodes");
+define("LAN_CHECK_31", "Пропавших без вести [или] знаки");
+define("LAN_CHECK_32", "Отсутствующие теги HTML");
 define("LANG_LAN_23", "Создание языкового пакета (zip)");
 define("LANG_LAN_30", "Дата выпуска");
 define("LANG_LAN_31", "Совместимость");

@@ -10,10 +10,10 @@
 +---------------------------------------------------------------+
 */
 
+define("LAN_PLUGIN_SOCIAL_NAME", "Социальные");
 define("LAN_PLUGIN_SOCIAL_DESCR", "Добавляет опции замещения движка комментарий e107 на Facebook, добавлять ленты из Twitter и т.д");
 define("LAN_PLUGIN_SOCIAL_SIGNIN", "Войти с:");
 define("LAN_PLUGIN_SOCIAL_XUP_SIGNUP", "Войдите с вашим [x] аккаунтом");
 define("LAN_PLUGIN_SOCIAL_XUP_REG", "Зарегистрируйтесь с вашим [x] аккаунтом");
 
 
-?>

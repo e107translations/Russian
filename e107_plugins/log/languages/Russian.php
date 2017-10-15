@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/10/14 23:34:53
+|
+|        $Author: admin $
++---------------------------------------------------------------+
+*/
 
 define("PAGE_NAME", "Статистика");
 define("ADSTAT_L1", "Этот плагин будет регистрировать всех посещений вашего сайта и построить Детальная статистика экраны, основанные на информации, собранной.");
@@ -56,7 +62,7 @@ define("ADSTAT_L49", "Сортировать по алфавиту");
 define("ADSTAT_L50", "Небывало статистика");
 define("ADSTAT_L51", "Текущий месяц статистика");
 define("ADSTAT_L52", "Предыдущий месяц статистика");
-define("ADSTAT_L53", "");
+define("ADSTAT_L53", "Информация");
 define("ADSTAT_L54", "");
 define("ADSTAT_L55", "");
 define("ADSTAT_L56", "");

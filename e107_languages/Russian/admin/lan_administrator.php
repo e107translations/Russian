@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/10/14 22:02:32
+|
+|        $Author: admin $
++---------------------------------------------------------------+
+*/
 
 define("ADMSLAN_6", "Главный сайт администратора и не могут быть удалены.");
 define("ADMSLAN_13", "Существующие администраторы");
@@ -22,4 +28,6 @@ define("ADMSLAN_62", "Менеджер плагинов");
 define("ADMSLAN_71", "Нажмите здесь, чтобы отобразить привилегии");
 define("ADMSLAN_72", "Администратор ID:--ID--имя:--имя--новые разрешения:");
 define("ADMSLAN_73", "Администратор ID:--ID--имя:--имя--");
-define("ADMSLAN_74", "Общие");
+
+
+?>

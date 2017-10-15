@@ -62,7 +62,7 @@ define("LAN_EURL_REWRITE_LABEL", "Дружественные URL-адресов"
 define("LAN_EURL_REWRITE_DESCR", "Поиск двигатель и пользователь дружественных URL.");
 define("LAN_EURL_CORE_NEWS", "Новости");
 define("LAN_EURL_NEWS_REWRITEF_LABEL", "Полное дружественных URL (не производительность и наиболее дружественных)");
-define("LAN_EURL_NEWS_REWRITEF_DESCR", "");
+define("LAN_EURL_NEWS_REWRITEF_DESCR", "..");
 define("LAN_EURL_NEWS_REWRITE_LABEL", "Дружественные URL-адресов без ID (не производительность, более дружественной)");
 define("LAN_EURL_NEWS_REWRITE_DESCR", "Демонстрирует ручной связь разбора и монтаж.");
 define("LAN_EURL_NEWS_REWRITEX_LABEL", "Дружественные URL-адресов с идентификатором (Спектакль мудрый)");
@@ -79,7 +79,7 @@ define("LAN_EURL_CORE_SEARCH", "Поиск");
 define("LAN_EURL_SEARCH_DEFAULT_LABEL", "По умолчанию URL-адрес поиска");
 define("LAN_EURL_SEARCH_DEFAULT_DESCR", "Наследие прямой URL-адрес.");
 define("LAN_EURL_SEARCH_REWRITE_LABEL", "Дружественные URL");
-define("LAN_EURL_SEARCH_REWRITE_DESCR", "");
+define("LAN_EURL_SEARCH_REWRITE_DESCR", "..");
 define("LAN_EURL_CORE_SYSTEM", "Системы");
 define("LAN_EURL_SYSTEM_DEFAULT_LABEL", "По умолчанию система URL");
 define("LAN_EURL_SYSTEM_DEFAULT_DESCR", "URL-адреса для страниц как не найден, отказано в доступе, и т.д.");
@@ -88,6 +88,9 @@ define("LAN_EURL_SYSTEM_REWRITE_DESCR", "URL-адреса для страниц 
 define("LAN_EURL_CORE_INDEX", "Главная страница");
 define("LAN_EURL_CORE_INDEX_INFO", "Передние страницы не может иметь псевдоним.");
 define("LAN_EURL_REBUILD", "Перестроить");
+define("LAN_EURL_REGULAR_EXPRESSION", "Regular Expression");
+define("LAN_EURL_KEY", "Ключ");
+define("LAN_EURL_TABLE", "Таблица");
 
 
 ?>

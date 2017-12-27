@@ -1,10 +1,16 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/12/17 22:15:33
+|
+|        $Author:  net1313 $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_DOCS", "Система документов");
+define("LAN_DOCS", "Помощь");
 define("LAN_DOCS_SECTIONS", "Разделы");
 define("LAN_DOCS_GOTOP", "Перейти к началу");
 define("LAN_DOCS_ANSWER", "Ответ");

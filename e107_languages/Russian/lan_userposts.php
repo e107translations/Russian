@@ -27,5 +27,4 @@ define("UP_LAN_12", "Поиск");
 define("UP_LAN_14", "Сообщения на форуме");
 define("UP_LAN_15", "Ответ");
 define("UP_LAN_16", "IP-адрес");
-
-
+?>

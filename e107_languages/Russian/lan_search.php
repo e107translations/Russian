@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/02 17:51:36
+|        Last Modified: 2017/12/25 18:39:36
 |
-|        $Author: fsLeg $
+|        $Author: fsLeg  net1313 $
 +---------------------------------------------------------------+
 */
 
@@ -21,7 +21,7 @@ define("LAN_197", "Загрузки");
 define("LAN_198", "Совпадений не найдено");
 define("LAN_199", "Поиск:");
 define("LAN_416", "Вы должны авторизоваться для доступа к этой странице");
-define("LAN_417", "Текст для поиска должен быть не менее --CHARS-- символов.");
+define("LAN_417", "Текст для поиска должен быть не менее [x] символов");
 define("LAN_418", "Другие страницы");
 define("LAN_SEARCH_1", "Отметить всё");
 define("LAN_SEARCH_2", "Снять все отметки");
@@ -100,6 +100,5 @@ define("LAN_SEARCH_77", "Отписался на странице профиля
 define("LAN_SEARCH_98", "Новости");
 define("LAN_SEARCH_201", "Просьба пересмотреть ваш поисковый запрос");
 define("LAN_SEARCH_202", "Переключиться в расширенный режим");
-
 
 ?>

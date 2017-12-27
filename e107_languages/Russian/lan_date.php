@@ -30,5 +30,4 @@ define("LANDT_09s", "сек.");
 define("LANDT_AGO", "назад");
 define("LANDT_10", "Сейчас");
 
-
 ?>

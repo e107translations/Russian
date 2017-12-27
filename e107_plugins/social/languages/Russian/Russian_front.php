@@ -1,25 +1,29 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Russian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/08/14 02:40:11
-|
-|        $Author: admin $
-+---------------------------------------------------------------+
++ ----------------------------------------------------------------------------+
+|     e107 website system - 
+|     social plugin
+|     translated by $net1313
++----------------------------------------------------------------------------+
 */
-define("LAN_SOCIAL_000", "Распространить На [x]");
-define("LAN_SOCIAL_001", "Лайкнуть на [x]");
-define("LAN_SOCIAL_002", "Послать по электронной почте");
-define("LAN_SOCIAL_003", "+1 на Google");
+//LAN_SOCIAL_000 to LAN_SOCIAL_099 // Common parts of the frontend
+define("LAN_SOCIAL_000", "Поделиться в [x]");
+define("LAN_SOCIAL_001", "Нравится в [x]");
+define("LAN_SOCIAL_002", "Email кому-либо");
+define("LAN_SOCIAL_003", "+1 от Гугла");
 define("LAN_SOCIAL_004", "Добавить в [x]");
-define("LAN_SOCIAL_100", "Невозможно показать ленту. 'Facebook App ID' не указан в настройках.");
-define("LAN_SOCIAL_200", "Невозможно показать ленту. URL Твиттера не указан в настройках.");
-define("LAN_SOCIAL_201", "Твиты от");
-define("LAN_SOCIAL_202", "Сделать пост на Twitter");
-define("LAN_SOCIAL_203", "Напишите ваш твит сдесь.");
-define("LAN_SOCIAL_005", "Проверите эту ссылку:");
-define("LAN_SOCIAL_204", "Предоставить общий доступ");
-define("LAN_SOCIAL_205", "Не удается оказать комментарии. Отсутствующие Facebook appID.");
-define("LAN_SOCIAL_WARNING", "Facebook комментарии требует, что у вас есть facebook App ID. Смотрите области «социальной входа» в настройках администратора, чтобы добавить один.");
+define("LAN_SOCIAL_005", "Проверить эту ссылку:");
+
+
+//LAN_SOCIAL_100 to LAN_SOCIAL_199 // Facebook specific
+define("LAN_SOCIAL_100",  "Невозможно отобразить канал. Facebook App ID не был определен в настройках.");
+
+
+//LAN_SOCIAL_200 to LAN_SOCIAL_299 // Twitter specific
+define("LAN_SOCIAL_200",  "Невозможно отобразить канал. URL-адрес Twitter не определен в настройках.");
+define("LAN_SOCIAL_201",  "Твиты");
+define("LAN_SOCIAL_202",  "Запостить в Twitter");
+define("LAN_SOCIAL_203",  "Написать ваш Твит здесь.");
+define("LAN_SOCIAL_204",  "Поделиться");
+define("LAN_SOCIAL_205",  "Невозможно отобразить комментарии. Отсутствует приложение для Facebook appID.");
+define("LAN_SOCIAL_WARNING", "Для комментариев через facebook требуется идентификатор приложения facebook. См. Раздел «вход через соц.сети» в настройках администратора.");

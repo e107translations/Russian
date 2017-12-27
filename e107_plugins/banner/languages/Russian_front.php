@@ -4,22 +4,22 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/10/14 21:01:57
+|        Last Modified: 2017/12/15 23:10:12
 |
-|        $Author: admin $
+|        $Author: net1313 $
 +---------------------------------------------------------------+
 */
-define("BANNERLAN_19", "Пожалуйста, введите ваш клиент логин и пароль для продолжения");
-define("BANNERLAN_20", "К сожалению, не в состоянии найти эти детали в базе данных. Для получения информации свяжитесь с администратором сайта.");
-define("BANNERLAN_21", "Статистика баннеры");
-define("BANNERLAN_22", "Клиент");
-define("BANNERLAN_23", "КОД баннера");
-define("BANNERLAN_24", "Кликов");
-define("BANNERLAN_25", "Нажмите кнопку %");
-define("BANNERLAN_26", "Впечатления");
-define("BANNERLAN_27", "Купил впечатления");
-define("BANNERLAN_28", "Впечатлений осталось");
-define("BANNERLAN_30", "Неограниченное количество");
+define("BANNERLAN_19", "Введите логин и пароль клиента");
+define("BANNERLAN_20", "Извините, таких данных не обнаружено. Пожалуйста, свяжитесь с администратором сайта для более подробной информации.");
+define("BANNERLAN_21", "Статистика");
+define("BANNERLAN_22", "Имя клиента");
+define("BANNERLAN_23", "ID баннера");
+define("BANNERLAN_24", "Переходов");
+define("BANNERLAN_25", "Кликов%");
+define("BANNERLAN_26", "Показов");
+define("BANNERLAN_27", "Приобретено показов");
+define("BANNERLAN_28", "Остaлось показов");
+define("BANNERLAN_30", "Неограниченно");
 define("BANNERLAN_31", "Не применимо");
-define("BANNERLAN_35", "С дополнительной информацией IP-адреса");
-define("BANNERLAN_39", "Нет изображения, назначенного на этот баннер.");
+define("BANNERLAN_35", "Переходов с IP-адресов");
+define("BANNERLAN_39", "Этому баннеру не назначено изображения.");

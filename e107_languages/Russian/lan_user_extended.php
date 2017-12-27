@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/07/30 03:13:25
+|        Last Modified: 2017/12/16 04:56:20
 |
-|        $Author: admin $
+|        $Author: net1313 $
 +---------------------------------------------------------------+
 */
 define("UE_LAN_1", "Текстовое поле");
@@ -52,5 +52,4 @@ define("UE_LAN_MALE", "Мужской");
 define("UE_LAN_FEMALE", "Женский");
 define("UE_LAN_COMMENT", "Комментарии");
 define("UE_LAN_COMMENT_DESC", "Поле комментариев");
-
-
+?>

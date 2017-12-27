@@ -1,249 +1,368 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_AUDIT_LOG_001", "Доступ запрещен пользователем");
-define("LAN_AUDIT_LOG_002", "Предохранение от активации");
-define("LAN_AUDIT_LOG_003", "Доступ Заблокированные IP-адреса");
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/12/25 19:40:26
+|
+|        $Author:  net1313 $
++---------------------------------------------------------------+
+*/
+define("LAN_AUDIT_LOG_001", "Вход забаненного юзера");
+define("LAN_AUDIT_LOG_002", "Включена защита от флуда");
+define("LAN_AUDIT_LOG_003", "Доступ забаненного IP");
 define("LAN_AUDIT_LOG_004", "");
 define("LAN_AUDIT_LOG_005", "");
 define("LAN_AUDIT_LOG_006", "Пользователь изменил пароль");
-define("LAN_AUDIT_LOG_007", "Пользователь изменил адрес электронной почты");
+define("LAN_AUDIT_LOG_007", "Пользователь изменил адрес эл. почты");
 define("LAN_AUDIT_LOG_008", "");
 define("LAN_AUDIT_LOG_009", "");
-define("LAN_AUDIT_LOG_010", "Данные пользователя изменен администратором");
+define("LAN_AUDIT_LOG_010", "Данные пользователя изменены админом");
 define("LAN_AUDIT_LOG_011", "Пользователь подписался");
-define("LAN_AUDIT_LOG_012", "Пользователь подтвердил регистрации");
+define("LAN_AUDIT_LOG_012", "Пользователь подтвердил регистрацию");
 define("LAN_AUDIT_LOG_013", "Пользователь вошел в систему");
-define("LAN_AUDIT_LOG_014", "Пользователь вышел из");
-define("LAN_AUDIT_LOG_015", "Измененные отображаемое имя пользователя");
+define("LAN_AUDIT_LOG_014", "Пользователь вышел");
+define("LAN_AUDIT_LOG_015", "Пользователь изменил отображаемое имя");
 define("LAN_AUDIT_LOG_016", "Пользователь изменил пароль");
-define("LAN_AUDIT_LOG_017", "Пользователь изменил адрес электронной почты");
+define("LAN_AUDIT_LOG_017", "Пользователь изменил адрес эл. почты");
 define("LAN_AUDIT_LOG_018", "Сброс пароля пользователя");
-define("LAN_AUDIT_LOG_019", "Пользователь изменил параметры");
-define("LAN_AUDIT_LOG_020", "Пользователь, Добавлены Админ");
-define("LAN_AUDIT_LOG_021", "Пользователь электронной почты отказов");
-define("LAN_AUDIT_LOG_022", "Пользователю запрещено");
-define("LAN_AUDIT_LOG_023", "Сброс пользовательского отказов");
+define("LAN_AUDIT_LOG_019", "Пользователь изменил настройки");
+define("LAN_AUDIT_LOG_020", "Пользователь добавлен Админом");
+define("LAN_AUDIT_LOG_021", "Получен отказ эл. почты юзера");
+define("LAN_AUDIT_LOG_022", "Пользователь забанен");
+define("LAN_AUDIT_LOG_023", "Сброс отказа почты юзера");
 define("LAN_AUDIT_LOG_024", "Временный статус пользователя");
-define("LAN_AL_ADLOG_01", "Журнал Admin - prefs обновление");
-define("LAN_AL_ADLOG_02", "Журнал Admin - удалять старые данные");
-define("LAN_AL_ADLOG_03", "Журнал аудита пользователей - удалять старые данные");
-define("LAN_AL_ADLOG_04", "Параметры аудита пользователей обновление");
+
+// Admin log events
+//-----------------
+define("LAN_AL_ADLOG_01", "Лог Админа - обновление настроек");
+define("LAN_AL_ADLOG_02", "Лог Админа - удалены старые данные");
+define("LAN_AL_ADLOG_03", "Лог аудита пользователей - удалены старые данные");
+define("LAN_AL_ADLOG_04", "Настройки аудита пользователей обновлены");
 define("LAN_AL_ADLOG_05", "");
-define("LAN_AL_USET_01", "Admin изменить данные пользователя");
-define("LAN_AL_USET_02", "Пользователь, Добавлены Админ");
+
+// User edits
+//-----------
+define("LAN_AL_USET_01", "Админ редактировал данные пользователя");
+define("LAN_AL_USET_02", "Пользователь добавлен Админом");
 define("LAN_AL_USET_03", "Обновление параметров пользователя");
-define("LAN_AL_USET_04", "Пользователи с обрезают");
-define("LAN_AL_USET_05", "Пользователю запрещено");
-define("LAN_AL_USET_06", "Пользователь unbanned");
+define("LAN_AL_USET_04", "Пользователи удалены");
+define("LAN_AL_USET_05", "Пользователь забанен");
+define("LAN_AL_USET_06", "Пользователь разбанен");
 define("LAN_AL_USET_07", "Пользователь удален");
-define("LAN_AL_USET_08", "Внесения пользователем admin");
-define("LAN_AL_USET_09", "Статус пользователя администратора отозван");
-define("LAN_AL_USET_10", "Пользователь одобрил");
-define("LAN_AL_USET_11", "Отправить проверки");
-define("LAN_AL_USET_12", "Повторная отправка всех сообщений проверки");
-define("LAN_AL_USET_13", "Отскочил сообщения электронной почты удалены");
-define("LAN_AL_USET_14", "Обновление членство в классе");
+define("LAN_AL_USET_08", "Юзер получил статус Админа");
+define("LAN_AL_USET_09", "Статус администратора отозван");
+define("LAN_AL_USET_10", "Активация пользователя");
+define("LAN_AL_USET_11", "Отправлен email подтверждения уч. записи");
+define("LAN_AL_USET_12", "Повторная отправка еmail подтверждения всем");
+define("LAN_AL_USET_13", "Удалены сообщения отрицательных отказов");
+define("LAN_AL_USET_14", "Обновление принадлежности к классу");
 define("LAN_AL_USET_15", "Отказано в регистрации");
-define("LAN_AL_UCLASS_00", "Неизвестных событий, связанных с userclass");
-define("LAN_AL_UCLASS_01", "Userclass создан");
-define("LAN_AL_UCLASS_02", "Userclass удалены");
-define("LAN_AL_UCLASS_03", "Userclass редактировать");
-define("LAN_AL_UCLASS_04", "Обновление членство в классе");
-define("LAN_AL_UCLASS_05", "Первоначальный userclass параметры редактирования");
-define("LAN_AL_UCLASS_06", "Членство в классе опустели");
-define("LAN_AL_BANLIST_00", "Неизвестное событие, связанные с запретом");
-define("LAN_AL_BANLIST_01", "Ручной запрет добавил");
-define("LAN_AL_BANLIST_02", "Пан удалены");
-define("LAN_AL_BANLIST_03", "Пан время изменилось");
-define("LAN_AL_BANLIST_04", "Whitelist запись");
-define("LAN_AL_BANLIST_05", "Whitelist запись удалена");
-define("LAN_AL_BANLIST_06", "Банлист экспорт");
-define("LAN_AL_BANLIST_07", "Банлист импортированы");
-define("LAN_AL_BANLIST_08", "Банлист варианты обновления");
-define("LAN_AL_BANLIST_09", "Банлист запись редактировать");
-define("LAN_AL_BANLIST_10", "Whitelist запись редактировать");
-define("LAN_AL_BANLIST_11", "Whitelist хит для запрета записи");
-define("LAN_AL_BANLIST_12", "Срок действия запретов очищается");
-define("LAN_AL_COMMENT_01", "Исключить комментарий (ов)");
+
+// Userclass events
+//------------------
+define("LAN_AL_UCLASS_00", "Невыясненное событие с userclass");
+define("LAN_AL_UCLASS_01", "Создан класс пользователей");
+define("LAN_AL_UCLASS_02", "Удален класс пользователей");
+define("LAN_AL_UCLASS_03", "Отредактирован класс пользователей");
+define("LAN_AL_UCLASS_04", "Обновлено участие в классе");
+define("LAN_AL_UCLASS_05", "Отредактированны исходные настройки класса");
+define("LAN_AL_UCLASS_06", "Удалена принадлежность к классу");
+
+// Banlist events
+//----------------
+define("LAN_AL_BANLIST_00", "Невыясненное событие с баном");
+define("LAN_AL_BANLIST_01", "Бан добавлен в ручную");
+define("LAN_AL_BANLIST_02", "Бан удален");
+define("LAN_AL_BANLIST_03", "Изменение срока бана");
+define("LAN_AL_BANLIST_04", "Запись в белый список");
+define("LAN_AL_BANLIST_05", "Удаление из белого списка");
+define("LAN_AL_BANLIST_06", "Банлист экспортирован");
+define("LAN_AL_BANLIST_07", "Банлист импортирован");
+define("LAN_AL_BANLIST_08", "Обновлены настройки бан-листа");
+define("LAN_AL_BANLIST_09", "Редакция записи в бан-листе");
+define("LAN_AL_BANLIST_10", "Редакция записи в белом списке");
+define("LAN_AL_BANLIST_11", "Запись из белого списка занесена в бан");
+define("LAN_AL_BANLIST_12", "Очищенны просроченные баны");
+
+// Comment-related events
+//-----------------------
+define("LAN_AL_COMMENT_01", "Комментарии удалены");
+
+// Rolling log events
+//-------------------
 define("LAN_ROLL_LOG_01", "Пустое имя пользователя или пароль");
-define("LAN_ROLL_LOG_02", "Введенный код Неверный образ");
-define("LAN_ROLL_LOG_03", "Комбинация неправильные имя пользователя/пароль");
-define("LAN_ROLL_LOG_04", "Неверное имя пользователя вступил");
-define("LAN_ROLL_LOG_05", "Попытка входа пользователя полностью не подписался");
-define("LAN_ROLL_LOG_06", "Заблокирован обработчиком событий триггера входа");
-define("LAN_ROLL_LOG_07", "Несколько логины от одного адреса");
-define("LAN_ROLL_LOG_08", "Чрезмерная пользователя длина");
-define("LAN_ROLL_LOG_09", "Запретили пользователь попытался войти");
-define("LAN_ROLL_LOG_10", "Сбой входа - неизвестной причине");
-define("LAN_ROLL_LOG_11", "Сбой входа в систему администратора");
-define("LAN_AL_PREFS_01", "Изменить настройки");
+define("LAN_ROLL_LOG_02", "Введен неверный код изображения (капчи)");
+define("LAN_ROLL_LOG_03", "Неверное сочетание имени пользователя и пароля");
+define("LAN_ROLL_LOG_04", "Ввод неверного имени пользователя"); 
+define("LAN_ROLL_LOG_05", "Попытка входа пользователя не прошедшего полную авторизацию");
+define("LAN_ROLL_LOG_06", "Вход заблокирован обработчиком событий");
+define("LAN_ROLL_LOG_07", "Многократные попытки входа с одного IP");
+define("LAN_ROLL_LOG_08", "Недопустимая длина имени пользователя");
+define("LAN_ROLL_LOG_09", "Забаненный юзер пытался войти");
+define("LAN_ROLL_LOG_10", "Сбой входа - причина неизвестна");
+define("LAN_ROLL_LOG_11", "Админ не смог войти в ситему");
+
+// Prefs events
+//-------------
+define("LAN_AL_PREFS_01", "Изменение настроек");
 define("LAN_AL_PREFS_02", "Созданы новые настройки");
-define("LAN_AL_PREFS_03", "Ошибка при сохранении prefs");
-define("LAN_AL_FRONTPG_00", "Неизвестные фронт страница родственные события");
-define("LAN_AL_FRONTPG_01", "Правила порядка изменилось");
+define("LAN_AL_PREFS_03", "Ошибка при сохранении настроек");
+
+// Front Page events
+//------------------
+define("LAN_AL_FRONTPG_00", "Невыясненное событие с Главной страницей");
+define("LAN_AL_FRONTPG_01", "Изменен порядок правил");
 define("LAN_AL_FRONTPG_02", "Добавлено правило");
-define("LAN_AL_FRONTPG_03", "Правила редактирования");
-define("LAN_AL_FRONTPG_04", "Правила удаления");
+define("LAN_AL_FRONTPG_03", "Правила редактировались");
+define("LAN_AL_FRONTPG_04", "Правила удалены");
 define("LAN_AL_FRONTPG_05", "");
 define("LAN_AL_FRONTPG_06", "");
-define("LAN_AL_UTHEME_00", "Неизвестный пользователь темы связанные события");
+
+// User theme admin
+//-----------------
+define("LAN_AL_UTHEME_00", "Невыясненное событие с темой");
 define("LAN_AL_UTHEME_01", "Изменены параметры темы пользователя");
 define("LAN_AL_UTHEME_02", "");
-define("LAN_AL_UPDATE_00", "Неизвестного программного обеспечения обновление связанного события");
-define("LAN_AL_UPDATE_01", "Обновление от 1.0 до 2.0 выполняется");
-define("LAN_AL_UPDATE_02", "Обновить от 0.7.x 0.7.6 выполнен");
-define("LAN_AL_UPDATE_03", "Добавлены отсутствующие prefs");
-define("LAN_AL_ADMIN_00", "Неизвестные администратор события");
-define("LAN_AL_ADMIN_01", "Обновление разрешений администратора");
-define("LAN_AL_ADMIN_02", "Права администратора удалены");
+
+// Update routines
+//----------------
+define("LAN_AL_UPDATE_00", "Невыясненное событие с обновлениями");
+define("LAN_AL_UPDATE_01", "Выполнено обновление с 1.0 до 2.0");
+define("LAN_AL_UPDATE_02", "Выполнено обновление с 0.7.x 0.7.6 ");
+define("LAN_AL_UPDATE_03", "Добавлены отсутствующие настройки");
+
+// Administrator routines
+//-----------------------
+define("LAN_AL_ADMIN_00", "Невыясненное событие с администратором");
+define("LAN_AL_ADMIN_01", "Обновление прав доступа админа");
+define("LAN_AL_ADMIN_02", "Удаление прав доступа админа");
 define("LAN_AL_ADMIN_03", "");
+
+// Maintenance mode
+//-----------------
 define("LAN_AL_MAINT_00", "Неизвестное содержание сообщения");
 define("LAN_AL_MAINT_01", "Установленного режима обслуживания");
 define("LAN_AL_MAINT_02", "Режим обслуживания очищается");
-define("LAN_AL_SLINKS_00", "Сообщение неизвестное ссылки");
-define("LAN_AL_SLINKS_01", "Создан sublinks");
-define("LAN_AL_SLINKS_02", "Sitelink переехали");
-define("LAN_AL_SLINKS_03", "Sitelink переехала вниз");
-define("LAN_AL_SLINKS_04", "Порядок sitelink обновление");
-define("LAN_AL_SLINKS_05", "Параметры ссылки обновлены");
-define("LAN_AL_SLINKS_06", "Sitelink удалены");
-define("LAN_AL_SLINKS_07", "Sitelink представлен");
-define("LAN_AL_SLINKS_08", "Sitelink обновление");
-define("LAN_AL_THEME_00", "Неизвестное сообщение, связанных с темой");
+
+// Sitelinks routines
+//-------------------
+define("LAN_AL_SLINKS_00", "Невыясненное событие со ссылками");
+define("LAN_AL_SLINKS_01", "Создана подссылка");
+define("LAN_AL_SLINKS_02", "Ссылки сайта перемещены вверх");
+define("LAN_AL_SLINKS_03", "Ссылки сайта перемещены вниз");
+define("LAN_AL_SLINKS_04", "Обновлен порядок ссылок сайта");
+define("LAN_AL_SLINKS_05", "Обновлены настройки ссылок навигации");
+define("LAN_AL_SLINKS_06", "Удаление ссылок навигации");
+define("LAN_AL_SLINKS_07", "Предложена ссылка навигации");
+define("LAN_AL_SLINKS_08", "Обновление ссылок навигации");
+
+// Theme manager routines
+//-----------------------
+define("LAN_AL_THEME_00", "Неизвестное сообщение, связанное с темой");
 define("LAN_AL_THEME_01", "Тема сайта обновлена");
-define("LAN_AL_THEME_02", "Обновление тема admin");
+define("LAN_AL_THEME_02", "Обновление темы админ-панели");
 define("LAN_AL_THEME_03", "Имидж преднагрузки/сайт обновление CSS");
 define("LAN_AL_THEME_04", "Администратор стиль/CSS обновление");
 define("LAN_AL_THEME_05", "");
-define("LAN_AL_CACHE_00", "Сообщение неизвестное кэш контроля");
-define("LAN_AL_CACHE_01", "Обновление параметров кэша");
-define("LAN_AL_CACHE_02", "Очищена кэш-памяти системы");
-define("LAN_AL_CACHE_03", "Содержимое кэша опустели");
+
+// Cache control routines
+//-----------------------
+define("LAN_AL_CACHE_00", "Невыясненное событие с кэшем");
+define("LAN_AL_CACHE_01", "Обновление настроек кэша");
+define("LAN_AL_CACHE_02", "Очищен кэш системы");
+define("LAN_AL_CACHE_03", "Очищен кэш контента");
 define("LAN_AL_CACHE_04", "");
-define("LAN_AL_EMOTE_00", "Неизвестных эмоции связанных сообщение");
-define("LAN_AL_EMOTE_01", "Активный эмоции пакет изменен");
-define("LAN_AL_EMOTE_02", "Эмоции активированные");
-define("LAN_AL_EMOTE_03", "Эмоции отключена");
-define("LAN_AL_WELCOME_00", "Неизвестное сообщение, связанных с Добро пожаловать");
-define("LAN_AL_WELCOME_01", "Добро пожаловать сообщение, созданное");
-define("LAN_AL_WELCOME_02", "Приветственное сообщение Обновление");
-define("LAN_AL_WELCOME_03", "Добро пожаловать сообщение удалено");
-define("LAN_AL_WELCOME_04", "Изменение параметров приветственное сообщение");
+
+// Emote admin
+//------------
+define("LAN_AL_EMOTE_00", "Невыясненное событие со смайлами");
+define("LAN_AL_EMOTE_01", "Иемзнен текущий набор смайлов");
+define("LAN_AL_EMOTE_02", "Активация смайлов");
+define("LAN_AL_EMOTE_03", "Смайлы отключены");
+
+// Welcome message
+//----------------
+define("LAN_AL_WELCOME_00", "Невыясненное событие с приветсвием");
+define("LAN_AL_WELCOME_01", "Приветсвие создано");
+define("LAN_AL_WELCOME_02", "Приветствие обновлено");
+define("LAN_AL_WELCOME_03", "Приветствие удалено");
+define("LAN_AL_WELCOME_04", "Изменение настроек приветствия");
 define("LAN_AL_WELCOME_05", "");
-define("LAN_AL_ADMINPW_01", "Изменить пароль администратора");
-define("LAN_AL_BANNER_00", "Неизвестное сообщение, связанных с баннер");
-define("LAN_AL_BANNER_01", "Обновление меню баннер");
-define("LAN_AL_BANNER_02", "Создать баннер");
+
+// Admin Password
+//---------------
+define("LAN_AL_ADMINPW_01", "Изменен пароль администратора");
+
+// Banners Admin
+//--------------
+define("LAN_AL_BANNER_00", "Невыясненное событие с баннером");
+define("LAN_AL_BANNER_01", "Обновление меню баннера");
+define("LAN_AL_BANNER_02", "Баннер создан");
 define("LAN_AL_BANNER_03", "Обновление баннера");
-define("LAN_AL_BANNER_04", "Удалить баннер");
-define("LAN_AL_BANNER_05", "Баннер конфигурации обновлены");
+define("LAN_AL_BANNER_04", "Удаление баннера");
+define("LAN_AL_BANNER_05", "Обновлены настройки баннеров");
 define("LAN_AL_BANNER_06", "");
-define("LAN_AL_IMALAN_00", "Неизвестное сообщение, связанных с изображением");
+
+// Image management
+//-----------------
+define("LAN_AL_IMALAN_00", "Невыясненное событие с изображениями");
 define("LAN_AL_IMALAN_01", "Аватар удалены");
 define("LAN_AL_IMALAN_02", "Все аватары и фотографии удалены");
 define("LAN_AL_IMALAN_03", "Аватар удалены");
-define("LAN_AL_IMALAN_04", "Параметры обновления");
+define("LAN_AL_IMALAN_04", "Настройки изображений обновлены");
 define("LAN_AL_IMALAN_05", "");
 define("LAN_AL_IMALAN_06", "");
-define("LAN_AL_LANG_00", "Неизвестный язык связанных сообщение");
-define("LAN_AL_LANG_01", "Языковые настройки изменены");
-define("LAN_AL_LANG_02", "Язык таблицы удалены");
-define("LAN_AL_LANG_03", "Язык таблицы, созданные");
-define("LAN_AL_LANG_04", "Язык индекс создан");
+
+// Language management
+//--------------------
+define("LAN_AL_LANG_00", "Невыясненное событие с локализацией");
+define("LAN_AL_LANG_01", "Изменены настройки локализации");
+define("LAN_AL_LANG_02", "Удалены таблицы языка");
+define("LAN_AL_LANG_03", "Созданы таблицы языка");
+define("LAN_AL_LANG_04", "Создан архив zip локализации");
 define("LAN_AL_LANG_05", "");
-define("LAN_AL_META_01", "Мета-теги обновление");
-define("LAN_AL_DOWNL_01", "Изменить параметры загрузки");
-define("LAN_AL_DOWNL_02", "Скачать категория создана");
-define("LAN_AL_DOWNL_03", "Скачать обновление категории");
-define("LAN_AL_DOWNL_04", "Скачать категории удалены");
-define("LAN_AL_DOWNL_05", "Загрузите созданный");
-define("LAN_AL_DOWNL_06", "Скачать обновление");
-define("LAN_AL_DOWNL_07", "Скачать удаленные");
-define("LAN_AL_DOWNL_08", "Скачать Категория заказ обновление");
-define("LAN_AL_DOWNL_09", "Скачать предел добавил");
-define("LAN_AL_DOWNL_10", "Скачать предел редактировать");
-define("LAN_AL_DOWNL_11", "Скачать предел удалены");
-define("LAN_AL_DOWNL_12", "Скачать Зеркало добавил");
-define("LAN_AL_DOWNL_13", "Скачать Зеркало обновление");
-define("LAN_AL_DOWNL_14", "Скачать Зеркало удалены");
+
+// Meta Tags
+//----------
+define("LAN_AL_META_01", "Обновлены Мета-теги");
+
+// Downloads
+//----------
+define("LAN_AL_DOWNL_01", "Изменены параметры загрузки");
+define("LAN_AL_DOWNL_02", "Создана категория скачиваний");
+define("LAN_AL_DOWNL_03", "Категории скачиваний обновлены");
+define("LAN_AL_DOWNL_04", "Удалены категории скачиваний");
+define("LAN_AL_DOWNL_05", "Создана загрузка/скачивание");
+define("LAN_AL_DOWNL_06", "Скачивания обновлены");
+define("LAN_AL_DOWNL_07", "Скачивания удалены");
+define("LAN_AL_DOWNL_08", "Обновлен порядок категорий загрузок");
+define("LAN_AL_DOWNL_09", "Добавлены квоты на скачивание");
+define("LAN_AL_DOWNL_10", "Квоты на скачивание отредактированны");
+define("LAN_AL_DOWNL_11", "Удалены квоты на скачивание");
+define("LAN_AL_DOWNL_12", "Зеркало скачиваний добавлено");
+define("LAN_AL_DOWNL_13", "Зеркало скачиваний обновлено");
+define("LAN_AL_DOWNL_14", "Зеркало скачиваний удалено");
 define("LAN_AL_DOWNL_15", "");
+
+// Custom Pages/Menus
+//-------------------
 define("LAN_AL_CPAGE_01", "Добавлена страница/меню");
 define("LAN_AL_CPAGE_02", "Обновлена страница/меню");
-define("LAN_AL_CPAGE_03", "Пользовательские страницы/меню удалено");
-define("LAN_AL_CPAGE_04", "Пользовательские страницы/меню настройки обновления");
-define("LAN_AL_EUF_01", "EUF переехали");
-define("LAN_AL_EUF_02", "EUF переехала вниз");
-define("LAN_AL_EUF_03", "EUF Категория переехали");
-define("LAN_AL_EUF_04", "EUF Категория переехала вниз");
-define("LAN_AL_EUF_05", "Расширенное поле пользователя");
-define("LAN_AL_EUF_06", "Расширенное поле пользователя обновляется");
-define("LAN_AL_EUF_07", "Расширенное поле пользователя удален");
-define("LAN_AL_EUF_08", "EUF Категория добавлена");
-define("LAN_AL_EUF_09", "EUF Категория обновлена");
-define("LAN_AL_EUF_10", "EUF Категория удалены");
-define("LAN_AL_EUF_11", "Расширенные пользовательские поля активирован");
-define("LAN_AL_EUF_12", "Расширенные пользовательские поля отключены");
-define("LAN_AL_MENU_01", "Активировать меню");
+define("LAN_AL_CPAGE_03", "Удаление страниц/меню");
+define("LAN_AL_CPAGE_04", "Обновление настроек страниц/меню");
+
+// Extended User Fields
+//---------------------
+define("LAN_AL_EUF_01", "Доп. поле перемещено вверх");
+define("LAN_AL_EUF_02", "Доп. поле перемещено вниз");
+define("LAN_AL_EUF_03", "Перемещение категории доп. поля вверх");
+define("LAN_AL_EUF_04", "Перемещение категории доп. поля вниз");
+define("LAN_AL_EUF_05", "Добавленое доп. поля");
+define("LAN_AL_EUF_06", "Обновление доп. поля");
+define("LAN_AL_EUF_07", "Доп. поле пользователя удалено");
+define("LAN_AL_EUF_08", "Добавлена категория доп. полей");
+define("LAN_AL_EUF_09", "Обновление категории доп. полей");
+define("LAN_AL_EUF_10", "Удалены категории доп. полей");
+define("LAN_AL_EUF_11", "Активация дополнительных полей");
+define("LAN_AL_EUF_12", "Отключение дополнительных полей");
+
+// Menus
+//------
+define("LAN_AL_MENU_01", "Меню активированно");
 define("LAN_AL_MENU_02", "Меню - установка видимости");
-define("LAN_AL_MENU_03", "Меню - области изменения");
-define("LAN_AL_MENU_04", "Меню отключена");
-define("LAN_AL_MENU_05", "Меню - Переход к началу");
-define("LAN_AL_MENU_06", "Меню - Переместить вниз");
+define("LAN_AL_MENU_03", "Меню - перенос в другую область");
+define("LAN_AL_MENU_04", "Меню отключено");
+define("LAN_AL_MENU_05", "Меню - перемещено на верх");
+define("LAN_AL_MENU_06", "Меню - перемещено вниз");
 define("LAN_AL_MENU_07", "Меню - вверх");
-define("LAN_AL_MENU_08", "Меню - двигаться вниз");
+define("LAN_AL_MENU_08", "Меню - вниз");
 define("LAN_AL_MENU_09", "");
+
+// Public Uploads
+//---------------
 define("LAN_AL_UPLOAD_01", "Загруженный файл удален");
-define("LAN_AL_UPLOAD_02", "Загрузить настройки изменены");
-define("LAN_AL_SEARCH_01", "Обновление параметров поиска");
-define("LAN_AL_SEARCH_02", "Поиск prefs обновление");
-define("LAN_AL_SEARCH_03", "Поиск params авто обновление");
-define("LAN_AL_SEARCH_04", "Для поиска областей обновление");
+define("LAN_AL_UPLOAD_02", "Изменены настройки загрузок");
+
+// Search
+//-------
+define("LAN_AL_SEARCH_01", "Обновление настроек поиска");
+define("LAN_AL_SEARCH_02", "Обновление опций поиска");
+define("LAN_AL_SEARCH_03", "Авто-обновление настроек поиска");
+define("LAN_AL_SEARCH_04", "Обновление областей поиска");
 define("LAN_AL_SEARCH_05", "Обновление параметров обработчика поиска");
 define("LAN_AL_SEARCH_06", "");
+
+// Notify
+//-------
 define("LAN_AL_NOTIFY_01", "Обновление параметров уведомления");
-define("LAN_AL_NEWS_01", "Элемент удален Новости");
-define("LAN_AL_NEWS_02", "Новости категория удалены");
-define("LAN_AL_NEWS_03", "Опубликовано Новости удалены");
-define("LAN_AL_NEWS_04", "Новости категории");
-define("LAN_AL_NEWS_05", "Новости категория обновлена");
-define("LAN_AL_NEWS_06", "Обновление настройки новостей");
-define("LAN_AL_NEWS_07", "Новости, представленные уполномоченным");
-define("LAN_AL_NEWS_08", "Элемент добавлен Новости");
-define("LAN_AL_NEWS_09", "Новости пункт Обновление");
-define("LAN_AL_NEWS_10", "Новости категория переписать изменения");
-define("LAN_AL_NEWS_11", "Новости категория переписать удалены");
-define("LAN_AL_NEWS_12", "Новости переписать изменения");
-define("LAN_AL_NEWS_13", "Новости переписать удалены");
-define("LAN_AL_FILEMAN_01", "Файлы удалены");
-define("LAN_AL_FILEMAN_02", "Файл(ы) переехал");
-define("LAN_AL_FILEMAN_03", "Загруженные файлы");
+
+// News
+//-----
+define("LAN_AL_NEWS_01", "Элемент новостей удален");
+define("LAN_AL_NEWS_02", "Удаление категории новостей");
+define("LAN_AL_NEWS_03", "Удаление опубликованной новости");
+define("LAN_AL_NEWS_04", "Создана категория новостей");
+define("LAN_AL_NEWS_05", "Обновление категории новостей");
+define("LAN_AL_NEWS_06", "Обновление настроек новостей");
+define("LAN_AL_NEWS_07", "Утверждение предоставленной новости");
+define("LAN_AL_NEWS_08", "Добавлена новость");
+define("LAN_AL_NEWS_09", "Обновление новости");
+define("LAN_AL_NEWS_10", "Изменение в записи категорий новостей");
+define("LAN_AL_NEWS_11", "Удаление записи в категории новостей");
+define("LAN_AL_NEWS_12", "Изменение в новости");
+define("LAN_AL_NEWS_13", "Удаление новости");
+
+// File Manager
+//-------------
+define("LAN_AL_FILEMAN_01", "Удаление файлов");
+define("LAN_AL_FILEMAN_02", "Перемещение файлов");
+define("LAN_AL_FILEMAN_03", "Загружено файлов");
 define("LAN_AL_FILEMAN_04", "");
-define("LAN_AL_MAIL_01", "Тестовое сообщение отправлено");
-define("LAN_AL_MAIL_02", "Создал листок");
-define("LAN_AL_MAIL_03", "Параметры электронной почты обновлена");
-define("LAN_AL_MAIL_04", "Листок подробности удалены");
-define("LAN_AL_MAIL_05", "Почтовые базы данных порядок");
-define("LAN_AL_MAIL_06", "Рассылка активирован");
+
+// Mail
+//-----
+define("LAN_AL_MAIL_01", "Отправлено сообщение тест");
+define("LAN_AL_MAIL_02", "Создана рассылка");
+define("LAN_AL_MAIL_03", "Обновлены настройки эл. почты");
+define("LAN_AL_MAIL_04", "Удалены данные о рассылке");
+define("LAN_AL_MAIL_05", "Профилактика БД почты");
+define("LAN_AL_MAIL_06", "Активация рассылки");
 define("LAN_AL_MAIL_07", "");
+
+// Plugin Manager
+//---------------
 define("LAN_AL_PLUGMAN_01", "Плагин установлен");
 define("LAN_AL_PLUGMAN_02", "Обновление плагина");
-define("LAN_AL_PLUGMAN_03", "Удалить плагин");
-define("LAN_AL_PLUGMAN_04", "Плагин обновляется");
-define("LAN_AL_EURL_01", "Конфигурация сайта URL-адрес изменен");
-define("LAN_AL_MISC_01", "Дерево меню настройки обновления");
-define("LAN_AL_MISC_02", "Параметры меню онлайн обновление");
-define("LAN_AL_MISC_03", "Обновление параметров меню входа");
-define("LAN_AL_MISC_04", "Комментарий меню настройки обновления");
-define("LAN_AL_MISC_05", "Меню настройки часов обновление");
-define("LAN_AL_MISC_06", "Параметры меню календаря блог обновление");
+define("LAN_AL_PLUGMAN_03", "Плагин удален");
+define("LAN_AL_PLUGMAN_04", "Плагин обновлен");
+
+// URL Manager
+//---------------
+define("LAN_AL_EURL_01", "Изменена настройка URL-адреса сайта");
+
+// Sundry Pseudo-plugins - technically they"re plugins, but not worth the file overhead of treating them separately
+//----------------------
+define("LAN_AL_MISC_01", "Обновлены настройки меню Tree menu");
+define("LAN_AL_MISC_02", "Обновлены настройки меню онлайн");
+define("LAN_AL_MISC_03", "Обновлены настройки меню входа");
+define("LAN_AL_MISC_04", "Обновлены настройки меню камментов");
+define("LAN_AL_MISC_05", "Обновлены настройки меню даты/времени");
+define("LAN_AL_MISC_06", "Обновлены настройки меню календаря блога");
 define("LAN_AL_MISC_07", "");
-define("LAN_AL_PING_01", "Пинг услуги");
-define("LAN_AL_ADMINUI_01", "Вставка таблицы DB интерфейса администратора: [x]");
-define("LAN_AL_ADMINUI_02", "Обновление таблицы DB интерфейса администратора: [x]");
-define("LAN_AL_ADMINUI_03", "Удаление таблицы DB интерфейса администратора: [x]");
-define("LAN_AL_ADMINUI_04", "Ошибка интерфейса администратора DB: [x]");
+
+
+define("LAN_AL_PING_01", "Пинг сервисы");
+
+define("LAN_AL_ADMINUI_01", "Создана таблица ДБ через админ-панель: [x]");
+define("LAN_AL_ADMINUI_02", "Обновлена таблица БД через админ-панель: [x]");
+define("LAN_AL_ADMINUI_03", "Удалена таблица БД через админ-панель: [x]");
+define("LAN_AL_ADMINUI_04", "Ошибка БД в админ-панели: [x]");
 define("LAN_AL_BACKUP", "Резервное копирование базы данных");
+
+define("LAN_AL_MEDIA_01", "Загрузка медиа-файлов");
+
+define("LAN_AL_USET_100", "Админ вошел под именем другого юзера");
+define("LAN_AL_USET_101", "Админ вышел из аккаунта дрогого юзера");
+?>

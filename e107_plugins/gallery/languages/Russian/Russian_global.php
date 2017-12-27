@@ -1,21 +1,13 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Russian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/08/14 01:48:40
-|
-|        $Author: admin $
-+---------------------------------------------------------------+
-*/
-
+/**
+ * @file
+ * Language file for "gallery" plugin.
+ * Translated by net1313 $ 2017/12/16
+ */
 define("LAN_PLUGIN_GALLERY_TITLE", "Галерея");
-define("LAN_PLUGIN_GALLERY_DIZ", "Простое изображение Галерея");
-define("LAN_PLUGIN_GALLERY_SEF_01", "Оптимизация для Поиска Галереи");
-define("LAN_PLUGIN_GALLERY_SEF_02", "URL оптимизированные для поиска включены");
-define("LAN_PLUGIN_GALLERY_SEF_03", "URL оптимизированные для поиска выключены");
-define("LAN_PLUGIN_GALLERY_SEF_04", "По умолчанию");
+define("LAN_PLUGIN_GALLERY_DIZ", "Простая галерея изображений");
 
-
-?>
+define("LAN_PLUGIN_GALLERY_SEF_01", "SEF (чпу) галереи");
+define("LAN_PLUGIN_GALLERY_SEF_02", "SEF URLs включены");
+define("LAN_PLUGIN_GALLERY_SEF_03", "SEF URLs отключены");
+define("LAN_PLUGIN_GALLERY_SEF_04", "Галерея по умолчанию");

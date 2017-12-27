@@ -1,32 +1,35 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Russian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/10/14 22:07:05
-|
-|        $Author: admin $
-+---------------------------------------------------------------+
-*/
+ * e107 website system
+ *
+ * Copyright (C) 2008-2017 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ * Translated by net1313 $ 2017/12/16 $
+ */
+define("POLLAN_3", "Вопрос голосования");
+define("POLLAN_4", "Ответы"); 
 
-define("POLLAN_3", "Опрос вопрос");
-define("POLLAN_4", "Параметры опроса");
 define("POLLAN_12", "Показать результаты");
-define("POLLAN_13", "После голосования");
-define("POLLAN_14", "нажав кнопку Просмотр результатов ссылка - Комментарии должен быть включен, чтобы использовать эту опцию");
-define("POLLAN_15", "Разрешить голосовать в этом опросе");
-define("POLLAN_16", "Метод хранения голосования");
-define("POLLAN_17", "Куки");
-define("POLLAN_19", "Идентификатор пользователя (только члены могут голосовать)");
-define("POLLAN_28", "Предыдущие опросы");
-define("POLLAN_31", "Голоса");
-define("POLLAN_40", "Нажмите здесь, чтобы увидеть результаты");
-define("POLLAN_41", "Этот опрос ограничен только для членов");
-define("POLLAN_42", "Этот опрос ограничен только администраторам");
-define("POLLAN_43", "Вы не имеют необходимые разрешения для голосовать в этом опросе");
+define("POLLAN_13", "после голосования");
+define("POLLAN_14", "по щелчку на ссылку результатов - комментарии при этом должны быть включены");
+define("POLLAN_15", "Разрешить рейтинг в этом опросе");
+define("POLLAN_16", "Способ запоминания голоса");
+define("POLLAN_17", "Cookie");
 
+define("POLLAN_19", "ID пользователя (могут голосовать только пользователи)");
 
-?>define("POLLAN_50", "Активные из [x] [y]");
-define("LAN_FORUM_3029", "Если вы не хотите добавить опрос в вашей теме, оставьте поля пустыми.");
-define("POLLAN_50", "Активные из [x] [y]");
+define("POLLAN_28", "Другие опросы");
+
+define("POLLAN_31", "Голосов");
+
+define("POLLAN_40", "Смотреть результаты");
+define("POLLAN_41", "Этот опрос разрешен только пользователям");
+define("POLLAN_42", "Этот опрос разрешен только Админам");
+define("POLLAN_43", "У вас нет необходимых прав доступа, для учaстия в этом опросе");
+
+define("POLLAN_50", "Активен от [x] до [y]");
+
+// TODO NEED TO BE RENAMED!
+define("LAN_FORUM_3029", "Оставте пустым, если не желаете добавить опрос в топик."); // LAN_386
+?>

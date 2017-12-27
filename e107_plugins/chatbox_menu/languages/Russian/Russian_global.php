@@ -1,19 +1,22 @@
 <?php
+define("LAN_PLUGIN_CHATBOX_MENU_NAME",		 	"Чат");
+define("LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION", 	"Меню чата");
+define("LAN_PLUGIN_CHATBOX_MENU_POSTS",			"Посты в чате");
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// Admin Log 
+//FIXME - Global LANS must begin with LAN_PLUGIN_{FOLDER_NAME}_ 
+define("LAN_AL_CHBLAN_01","Настройки чата обновлены");
+define("LAN_AL_CHBLAN_02","Чаты удалены");
+define("LAN_AL_CHBLAN_03","Посты чата пересчитаны");
+define("LAN_AL_CHBLAN_04","");
+define("LAN_AL_CHBLAN_05","");
 
-define("LAN_PLUGIN_CHATBOX_MENU_NAME", "Чат");
-define("LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION", "Меню чата");
-define("LAN_PLUGIN_CHATBOX_MENU_POSTS", "Сообщения чата");
-define("LAN_AL_CHBLAN_01", "Параметры чата обновление");
-define("LAN_AL_CHBLAN_02", "Разговаривают с обрезают");
-define("LAN_AL_CHBLAN_03", "Сообщения чата пересчитываются");
-define("LAN_AL_CHBLAN_04", "");
-define("LAN_AL_CHBLAN_05", "");
-define("NT_LAN_CB_1", "Чат события");
-define("NT_LAN_CB_2", "Сообщение Опубликовано");
-define("NT_LAN_CB_3", "Написал");
-define("NT_LAN_CB_5", "Сообщение");
-define("NT_LAN_CB_6", "Опубликовано сообщение чата");
+// Notify
+define("NT_LAN_CB_1", "События в чате");
+define("NT_LAN_CB_2", "Сообщение добавлено");
+define("NT_LAN_CB_3", "Автор ");
+// define("NT_LAN_CB_4", "IP Address");
+define("NT_LAN_CB_5", "Пост");
+define("NT_LAN_CB_6", "Добавлен пост в чате");
+
+?>

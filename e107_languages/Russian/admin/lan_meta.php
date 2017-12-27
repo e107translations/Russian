@@ -1,10 +1,15 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/12/17 22:05:00
+|
+|        $Author: net1313 $
++---------------------------------------------------------------+
+*/
 define("METLAN_00", "Мета-теги");
 define("METLAN_1", "Дополнительные мета-теги");
-define("METLAN_2", "Например< meta='' name='revisit-after' content='30 days'>");
-define("METLAN_3", "Использовать название Новости и резюме в качестве мета описания на страницах новостей.");
+define("METLAN_2", "Например <meta='' name='revisit-after' content='30 days'>");
+define("METLAN_3", "Использовать заголовок Новости и аннотацию в качестве мета описания для страниц новостей");

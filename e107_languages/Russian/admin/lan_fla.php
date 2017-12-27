@@ -1,17 +1,22 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("FLALAN_2", "Журнал не неудачных попыток входа");
-define("FLALAN_3", "Сохранены удалены");
-define("FLALAN_4", "Пользователь попытался войти, используя неправильные имя пользователя/пароль");
-define("FLALAN_5", "IP(s) запрещена");
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/12/17 22:51:32
+|
+|        $Author: net1313 $
++---------------------------------------------------------------+
+*/
+define("FLALAN_2", "Нет записей неудачных попыток логина");
+define("FLALAN_3", "Попытка(ки) удалены");
+define("FLALAN_4", "Пользователь попытался войти, используя неверные логин/пароль");
+define("FLALAN_5", "IP запрещен(ы)");
 define("FLALAN_7", "Данные");
-define("FLALAN_8", "IP-адрес / хост");
-define("FLALAN_10", "Удалить / запрета проверки записей");
-define("FLALAN_15", "Следующие IP-адреса были запрещены auto - пользователь попытался более чем 10 неудачных попыток входа");
-define("FLALAN_16", "удалить этот список невъездных авто");
-define("FLALAN_17", "Авто бан-лист удален");
-define("FLALAN_18", "Может не запрет IP-адрес — IP--- на белый");
+define("FLALAN_8", "IP-адрес/хост");
+define("FLALAN_10", "Удалить/Запретить отмеченные");
+define("FLALAN_15", "Следующий(ие) IP-адрес(а) был(и) автоматически запрещен(ы) - пользователь сделал более десяти неудачных попыток входа");
+define("FLALAN_16", "удалить этот список запретов");
+define("FLALAN_17", "Бан-лист удален");
+define("FLALAN_18", "Не удалось запретить IP-адрес --IP-- находится в белом списке");

@@ -60,5 +60,4 @@ define("CONTENT", "Содержимое страницы");
 define("REVIEW", "Обзор");
 define("OTHER", "Другая страница:");
 
-
 ?>

@@ -1,17 +1,18 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Russian Language File
+|        e107 website content management system English Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/10/14 23:32:42
+|        Last Modified: 2017/12/25 11:04:44
 |
-|        $Author: admin $
+|        $Author: Yesszus $ net1313
 +---------------------------------------------------------------+
 */
-
-define("TMCEALAN_2", "Spellcheck браузера");
-define("TMCEALAN_3", "Включите это если spellchecker внутреннего браузера должен быть использован.");
-define("TMCEALAN_4", "Визуальных блоков");
-define("TMCEALAN_5", "Включите, чтобы сделать видимыми блоки html во время редактирования.");
-define("TMCEALAN_1", "Вставить как текст по умолчанию");
+define("TMCEALAN_1", "По умолчанию вставки в формате текста");
+define("TMCEALAN_2", "Проверка орфографии в браузере");
+define("TMCEALAN_3", "Включите, если используете встроенную в браузер проверку орфографии");
+define("TMCEALAN_4", "Визуальные Блоки");
+define("TMCEALAN_5", "Включить, чтобы блоки html отображались во время редактирования");
+define("TMCEALAN_6", "Подсветка CSS разметки");
+?>

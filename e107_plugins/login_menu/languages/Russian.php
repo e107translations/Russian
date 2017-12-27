@@ -1,51 +1,66 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_LOGINMENU_1", "Имя пользователя:");
+/*
+ * e107 website system
+ *
+ * Copyright (C) 2008-2009 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ *
+ *
+ * $Source: /cvs_backup/e107_0.8/e107_plugins/login_menu/languages/English.php,v $
+ * $Revision$
+ * $Date$
+ * $Author$
+ */
+define("LAN_LOGINMENU_1", "Логин:");
 define("LAN_LOGINMENU_2", "Пароль:");
 define("LAN_LOGINMENU_3", "Регистрация");
 define("LAN_LOGINMENU_4", "Забыли пароль?");
 define("LAN_LOGINMENU_5", "Добро пожаловать");
 define("LAN_LOGINMENU_6", "Запомнить меня");
-define("LAN_LOGINMENU_7", "Уникальный идентификатор пользователя не признаются (возможно поврежден cookie). Пожалуйста, нажмите ссылку ниже, чтобы уничтожить файл cookie выхода.");
+define("LAN_LOGINMENU_7", "Идентификатор пользователя не найден (возможно, повреждены cookies). Пожалуйста, нажмите ссылку ниже, для удаления cookie.");
 define("LAN_LOGINMENU_9", "Ошибка входа");
-define("LAN_LOGINMENU_10", "Флаг обслуживания верно - это означает, что нормальные посетителей перенаправляются в sitedown.php. Чтобы сбросить флаг перейдите к администратора/техническое обслуживание.");
+define("LAN_LOGINMENU_10", "Сайт закрыт на техническое обслуживание. Это означает, что все пользователи будут перенаправлены на страницу sitedown.php. Для активации сайта в режим онлайн перейдите в Админцентр/Техническое обслуживание.");
 define("LAN_LOGINMENU_11", "Админцентр");
+define("LOGIN_MENU_12", "Настройки");
 define("LAN_LOGINMENU_13", "Профиль");
 define("LAN_LOGINMENU_14", "новость");
-define("LAN_LOGINMENU_15", "Новости");
-define("LAN_LOGINMENU_16", "сообщение чата");
+define("LAN_LOGINMENU_15", "Новостей");
+define("LAN_LOGINMENU_16", "сообщение в чате");
 define("LAN_LOGINMENU_17", "сообщения чата");
 define("LAN_LOGINMENU_18", "Комментарий");
-define("LAN_LOGINMENU_19", "Комментарии");
-define("LAN_LOGINMENU_20", "в форуме");
-define("LAN_LOGINMENU_21", "сообщения на форуме");
-define("LAN_LOGINMENU_22", "новый сайт член");
-define("LAN_LOGINMENU_23", "новые члены сайта");
-define("LAN_LOGINMENU_24", "Нажмите здесь, чтобы посмотреть список новых элементов");
-define("LAN_LOGINMENU_25", "С момента вашего последнего визита были");
+define("LAN_LOGINMENU_19", "Комментариев");
+define("LAN_LOGINMENU_20", "сообщение форума");
+define("LAN_LOGINMENU_21", "сообщений форума");
+define("LAN_LOGINMENU_22", "новый пользователь");
+define("LAN_LOGINMENU_23", "новых пользователей");
+define("LAN_LOGINMENU_24", "Нажмите здесь, чтобы посмотреть список обновлений");
+define("LAN_LOGINMENU_25", "С вашего последнего посещения");
 define("LAN_LOGINMENU_26", "нет");
 define("LAN_LOGINMENU_27", "и");
-define("LAN_LOGINMENU_31", "Показать новые сообщения Новости");
-define("LAN_LOGINMENU_34", "Показать новые должности комментарий");
-define("LAN_LOGINMENU_36", "Показать новых членов");
-define("LAN_LOGINMENU_39", "Написать администратору");
-define("LAN_LOGINMENU_40", "Выслать письмо активации");
-define("LAN_LOGINMENU_41", "Меню Параметры входа в систему");
+define("LAN_LOGINMENU_28", "Войти");
+define("LAN_LOGIN_MENU_29", "новая статья");
+define("LAN_LOGIN_MENU_30", "новых статей");
+define("LAN_LOGINMENU_31", "Показать последние Новости");
+define("LAN_LOGINMENU_34", "Показать новые комментарии");
+define("LAN_LOGINMENU_36", "Показать новых пользователей");
+define("LAN_LOGINMENU_39", "Покинуть Админцентр");
+define("LAN_LOGINMENU_40", "Отправить мне письмо активации");
+define("LAN_LOGINMENU_41", "Настройки Меню Входа");
 define("LAN_LOGINMENU_37", "Показать");
-define("LAN_LOGINMENU_38", "Меню Вход - Дополнительные ссылки");
-define("LAN_LOGINMENU_42", "Меню вход - последние дополнения основных");
+define("LAN_LOGINMENU_38", "Меню Входа - Дополнительные ссылки");
+define("LAN_LOGINMENU_42", "Меню входа - обновляния ядра");
 define("LAN_LOGINMENU_43", "Позиция");
-define("LAN_LOGINMENU_44", "название недостающее звено");
-define("LAN_LOGINMENU_45", "ссылку(ки)-");
+define("LAN_LOGINMENU_44", "отсутствие ссылки на заголовок");
+define("LAN_LOGINMENU_45", "ссылка(ки) -");
 define("LAN_LOGINMENU_45a", "");
-define("LAN_LOGINMENU_45b", "плагин");
-define("LAN_LOGINMENU_46", "Недавние документы-");
-define("LAN_LOGINMENU_47", "Меню вход - последних дополнений плагин");
-define("LAN_LOGINMENU_48", "Меню конфигурации");
-define("LAN_LOGINMENU_49", "Отправить по электронной почте:");
-define("LAN_LOGINMENU_50", "Имя пользователя или Email:");
-define("LAN_LOGINMENU_51", "Войти");
+define("LAN_LOGINMENU_45b", "в плагине");
+define("LAN_LOGINMENU_46", "Недавние -");
+define("LAN_LOGINMENU_47", "Меню входа - последние дополнения плагинов");
+define("LAN_LOGINMENU_48", "Меню настроек");
+define("LAN_LOGINMENU_49", "Электронная почта:");
+define("LAN_LOGINMENU_50", "Логин или Email:");
+define("LAN_LOGINMENU_51", "Вход");
+
+?>

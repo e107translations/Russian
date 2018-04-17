@@ -35,4 +35,4 @@
 
 **Discussion:** http://www.e107club.ru/plugins/forum/forum_viewtopic.php?66855
 
-© «net1313», 2018. All Rights Reserved.
+© «e107 Club», «net1313», 2018. All Rights Reserved.

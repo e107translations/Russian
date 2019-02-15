@@ -1,18 +1,26 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2019/02/15 19:04:21
+|
+|        $Author: net1313 https://e107-ru.com $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
 
-define("UTHEME_MENU_L1", "Набор");
-define("UTHEME_MENU_L2", "Выбрать язык");
+define("UTHEME_MENU_L1", "Установить");
+define("UTHEME_MENU_L2", "Выброр языка");
 define("UTHEME_MENU_L3", "таблицы");
-define("LAN_UMENU_THEME_1", "Установить тему");
-define("LAN_UMENU_THEME_2", "Выбрать тему");
+
+define("LAN_UMENU_THEME_1", "Установка темы");
+define("LAN_UMENU_THEME_2", "Выбор темы");
 define("LAN_UMENU_THEME_3", "Пользователи:");
-define("LAN_UMENU_THEME_4", "Включить эти темы, которые пользователи могут выбрать");
-define("LAN_UMENU_THEME_5", "Обновление");
-define("LAN_UMENU_THEME_6", "Темы доступны для пользователей");
-define("LAN_UMENU_THEME_7", "Класс, который можно выбрать темы");
-define("LAN_UMENU_THEME_8", "Разрешенные темы:");
-define("LAN_UMENU_THEME_9", "Класс, который можно выбрать темы:");
+define("LAN_UMENU_THEME_4", "Активировать темы, доступные для выбора");
+define("LAN_UMENU_THEME_5", "Обновить");
+define("LAN_UMENU_THEME_6", "Доступные пользователям темы");
+define("LAN_UMENU_THEME_7", "Рразрешить выбор тем классу пользователей");
+define("LAN_UMENU_THEME_8", "Доступные темы:");
+define("LAN_UMENU_THEME_9", "Рразрешить выбор классу пользователей:");

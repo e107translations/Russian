@@ -4,23 +4,23 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/16 04:56:20
+|        Last Modified: 2018/01/04 03:23:20
 |
 |        $Author: net1313 $
 +---------------------------------------------------------------+
 */
 define("UE_LAN_1", "Текстовое поле");
-define("UE_LAN_2", "Переключатели");
-define("UE_LAN_3", "Выпадающее меню");
+define("UE_LAN_2", "Радио-кнопка");
+define("UE_LAN_3", "Выпадающий список");
 define("UE_LAN_4", "Поле таблицы БД");
-define("UE_LAN_5", "Текстовое поле");
+define("UE_LAN_5", "Область текста");
 define("UE_LAN_6", "Число");
 define("UE_LAN_8", "Язык");
-define("UE_LAN_9", "Предопределённый список");
+define("UE_LAN_9", "Предустановленный список");
 define("UE_LAN_10", "Флажки");
 define("UE_LAN_13", "Страна");
 define("UE_LAN_21", "Имя");
-define("UE_LAN_22", "Тип");
+define("UE_LAN_22", "Тип данных");
 define("UE_LAN_23", "Использование");
 define("UE_LAN_HIDE", "Скрыть от пользователей");
 define("UE_LAN_LOCATION", "Местоположение");

@@ -4,14 +4,14 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/11 00:59:34
+|        Last Modified: 2018/09/06 22:26:30
 |
-|        $Author: fsLeg $ net1313
+|        $Author: fsLeg $ net1313 https://e107-ru.com
 +---------------------------------------------------------------+
 */
 
-define("PAGE_NAME", "Отправить новость");
-define("LAN_134", "Ваша публикация была отправлена на модерацию.");
+define("PAGE_NAME", "Сообщить новость");
+define("LAN_134", "Ваша публикация отправлена на модерацию.");
 define("LAN_135", "Новость:");
 define("LAN_136", "Отправить новость");
 define("NWSLAN_10", "Нет категорий новостей");

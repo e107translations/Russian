@@ -1,5 +1,5 @@
-![e107club](https://downloader.disk.yandex.ru/preview/2c9832c75b5638f9ed2aeb1fbd0161c73dc811d15729eaabfb1f3305588e47a3/5ad59e9d/stiqGIFeNhpiLAWbgW36iJZ0T5Ha7e3tzZ9V5vynXpTO6QWVz8KIqy5ujPwGMQQYnSSy8nVNiNTg_Zeu0DeBkw%3D%3D?uid=0&filename=e107club_84x84.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1920x1008)
-# Localization_e107_2.1.7_Russian_ru_RU-utf8
+[![N|Solid](https://e107-ru.com/thumb.php?src=e_MEDIA_IMAGE%2F2018-04%2Flogo2.png&w=0&h=150)](https://e107-ru.com)
+# Localization_e107_2.1.9_Russian_ru_RU-utf8
 
 ### Русский:
 
@@ -9,34 +9,34 @@
 
 **Кодировка:**		utf8 without BOM
 
-**Версия перевода:**		Предварительный выпуск
+**Версия перевода:**	Стабильный релиз (обновлено 15-02-2019)
 
-**Версия e107cms:**		2.1.7
+**Версия e107cms:**		2.1.9
 
-**Обсуждение:** http://www.e107club.ru/plugins/forum/forum_viewtopic.php?66855
+**Обсуждение:**         https://e107-ru.com/forum/forum-system-localization/
 
 ### ***Просьба ко всем, неравнодушным пользователям системы e107, принять участие в тестировании для выявления ошибок в переводе.***
 
 ***
 ### English:
 
-**Name:**		Russian Language Pack e107 CMS
+**Name:**	Russian language pack, release for version 2.1.9
 
-**Description:**		Translation of the Admin Panel, translation of some plugins and themes Bootstrap3.
+**Description:**	Translation of the Admin Panel, translation of some plugins and Admin theme Bootstrap3.
 
 **Charset:**		utf8 without BOM
 
-**Translation version:**		Pre-release
+**Translation version:**	Stable (last updated 02-15-2019)
 
-**Version e107cms:**		2.1.7
+**Version e107cms:**	2.1.9
 
-**Discussion:** http://www.e107club.ru/plugins/forum/forum_viewtopic.php?66855
+**Discussion:** https://e107-ru.com/forum/forum-system-localization/
 
 ### ***Appeal to all not indifferent users of the system e107 cms, to take part in testing for detecting of mistakes in translation.***
 
 ***
-**Homepage:** https://github.com/e107club/localization_e107_2.1.7_Russian_ru_RU-utf8
+**Homepage:** https://github.com/e107-ru/e107-ru
 
-© net1313, 2018. All Rights Reserved.
+© net1313, 2019. All Rights Reserved.
 
-© [e107 Club](http://e107club.ru), 2018. All Rights Reserved.
+© [e107-ru.com](https://e107-ru.com), 2019. All Rights Reserved.

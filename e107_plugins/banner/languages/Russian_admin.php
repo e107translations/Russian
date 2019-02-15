@@ -4,7 +4,7 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/15 23:25:02
+|        Last Modified: 2018/01/02 01:16:02
 |
 |        $Author: net1313 $
 +---------------------------------------------------------------+
@@ -24,7 +24,7 @@ define("BNRLAN_32", "Выбрать изображение баннера");
 define("BNRLAN_33", "Код");
 define("BNRLAN_35", "Меню баннера");
 define("BNRLAN_38", "Реклама");
-define("BNRLAN_39", "Кол-во кампаний для показа в меню");
+define("BNRLAN_39", "Кампании показанные в этом меню");
 define("BNRLAN_40", "Пока нет кампаний");
 define("BNRLAN_41", "Количество баннеров для показа");
 define("BNRLAN_42", "Используется только если выбрано несколько кампаний");

@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/08/14 18:15:58
+|        Last Modified: 2019/01/17 02:10:50
 |
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("CORE_DATE_ORDER", "Число/Месяц/Год");
@@ -40,10 +40,10 @@ define("LAN_MAILOUT_27", "сообщения и ");
 define("LAN_MAILOUT_28", "Сохранить изменения");
 define("LAN_MAILOUT_29", "секунд");
 define("LAN_MAILOUT_30", "Используется в основном с SMTP keepalive. Более 30-секундная пауза может вызвать тайм-аут бразуера");
-define("LAN_MAILOUT_31", "Обработка отрицательного возврата эл. почты");
+define("LAN_MAILOUT_31", "Обработка возвращенного отказа эл. почты");
 define("LAN_MAILOUT_33", "Сервер входящей почты");
 define("LAN_MAILOUT_34", "Имя пользователя");
-define("LAN_MAILOUT_36", "Удалить отрицательные отказы после проверки");
+define("LAN_MAILOUT_36", "Удалить возвращенные отказы после проверки");
 define("LAN_MAILOUT_37", "Продолжить");
 define("LAN_MAILOUT_38", "Отменить");
 define("LAN_MAILOUT_39", "Отправка сообщений");
@@ -135,7 +135,7 @@ define("LAN_MAILOUT_140", "Email получателя");
 define("LAN_MAILOUT_141", "Имя получателя");
 define("LAN_MAILOUT_142", "ID пользователя");
 define("LAN_MAILOUT_143", "Ref. получателя");
-define("LAN_MAILOUT_144", "Отрицательный возврат");
+define("LAN_MAILOUT_144", "Возвращенный отказ");
 define("LAN_MAILOUT_145", "Новый адрес эл. почты сохранен");
 define("LAN_MAILOUT_146", "Ошибка при сохранении email");
 define("LAN_MAILOUT_147", "Email обновлен");
@@ -217,7 +217,7 @@ define("LAN_MAILOUT_227", "Удалено [x] записей из [y]");
 define("LAN_MAILOUT_228", "[x] аномалий в mail_content исправлено. Всего записей: [y]");
 define("LAN_MAILOUT_229", "Идентификатору рассылки [x] назначен статус «Приостановлена»");
 define("LAN_MAILOUT_230", "Ошибка при задержке рассылки с идентификатором [x]");
-define("LAN_MAILOUT_231", "Метод обработки отрицательных отказов");
+define("LAN_MAILOUT_231", "Метод обработки возвращенных отказов");
 define("LAN_MAILOUT_232", "Нет");
 define("LAN_MAILOUT_233", "Скрипт автоматической обработки");
 define("LAN_MAILOUT_234", "Почтовый аккаунт");
@@ -250,7 +250,7 @@ define("LAN_MAILOUT_260", "Пользователь");
 define("LAN_MAILOUT_261", "SMTP порт");
 define("LAN_MAILOUT_262", "Предпросмотр шаблона");
 define("LAN_MAILOUT_263", "Всего получателей");
-define("LAN_MAILOUT_264", "Вставить медиафайлы");
+define("LAN_MAILOUT_264", "Вставка медиафайлов");
 define("LAN_MAILOUT_265", "Незаконченные");
 define("LAN_MAILOUT_266", "Макс активных");
 define("LAN_MAILOUT_267", "Создание открытого и закрытого ключей");

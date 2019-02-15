@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/25 18:45:34
+|        Last Modified: 2018/09/06 22:08:30
 |
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("LAN_USER_01", "Отображаемое имя");
@@ -33,12 +33,12 @@ define("LAN_USER_24", "Смена пароля");
 define("LAN_USER_31", "Главный администратор");
 define("LAN_USER_32", "Администратор сайта");
 define("LAN_USER_33", "нет информации");
-define("LAN_USER_34", "назад");
+define("LAN_USER_34", " "); // удалено слово 'назад', так как дублирует такое же в lan date
 define("LAN_USER_35", "[скрыто по запросу]");
-define("LAN_USER_36", "Нажмите здесь, чтобы посмотреть комментарии пользователя");
-define("LAN_USER_37", "Нажмите здесь, чтобы посмотреть публикации на форуме");
-define("LAN_USER_38", "Нажмите здесь, чтобы обновить вашу информацию");
-define("LAN_USER_39", "Нажмите здесь, чтобы изменить информацию о пользователе");
+define("LAN_USER_36", "Просмотр комментариев пользователя");
+define("LAN_USER_37", "Просмотр сообщений на форуме");
+define("LAN_USER_38", "Редактировать учетную запись");
+define("LAN_USER_39", "Изменить информацию пользователя");
 define("LAN_USER_40", "предыдущий пользоватесь");
 define("LAN_USER_41", "следующий пользователь");
 define("LAN_USER_42", "нет фотографии");
@@ -48,8 +48,8 @@ define("LAN_USER_45", "По убыванию");
 define("LAN_USER_46", "По возрастанию");
 
 define("LAN_USER_49", "Нет информации о пользователе, поскольку он не зарегистрирован ");
-define("LAN_USER_50", "Профиль пользователь");
-define("LAN_USER_51", "Неверный пользователь.");
+define("LAN_USER_50", "Профиль пользователя");
+define("LAN_USER_51", "Несуществующий пользователь");
 define("LAN_USER_52", "Зарегистрированные пользователи");
 define("LAN_USER_53", "Нет зарегистрированных пользователей.");
 define("LAN_USER_54", "Рейтинг");

@@ -5,13 +5,14 @@
  * Copyright (C) 2008-2017 e107 Inc (e107.org)
  * Released under the terms and conditions of the
  * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- * Translated by net1313 $ 2017/12/16
+ * Translated by net1313 $ 2017/12/24
  */
 
 define("LAN_DL_OPTIONS",               "Опции"); //FIXME Use Generic
 define("LAN_DL_DOWNLOAD_OPT_GENERAL",  "Основные");
 define("LAN_DL_DOWNLOAD_OPT_BROKEN",   "Отчеты");
 define("LAN_DL_DOWNLOAD_OPT_AGREE",    "Соглашение");
+define("LAN_DL_DOWNLOAD_OPT_SECURITY", "Защита");
 define("LAN_DL_UPLOAD",                "Загрузки"); //FIXME Use Generic
 define("LAN_DL_USE_PHP",               "Использовать PHP");
 define("LAN_DL_USE_PHP_INFO",          "Если включено, то запросы на скачивание обрабатываются PHP");
@@ -30,7 +31,7 @@ define("DOWLAN_9",   "Подробнее:");
 define("DOWLAN_10",  "Загрузки"); //FIXME Use Generic
 define("DOWLAN_11",  "Категория"); //FIXME Use Generic
 define("DOWLAN_12",  "Название"); //FIXME Use Generic
-define("DOWLAN_13",  "Файл");
+define("DOWLAN_13",  "Файл1");
 
 define("DOWLAN_15",  "Автор"); //FIXME Use Generic
 define("DOWLAN_16",  "Email автора"); //FIXME Use Generic
@@ -171,4 +172,17 @@ define("DOWLAN_HELP_8", "Help for upload list. Перевода не сущес�
 define("DOWLAN_HELP_9", "Help for upload types. Перевода не существует, так как нет в оригинале. Добавьте свои пояснения");
 define("DOWLAN_HELP_10", "Help for upload options. Перевода не существует, так как нет в оригинале. Добавьте свои пояснения");
 
+define("LAN_DL_SECURITY_DESCRIPTION", "Загрузки могут использовать серверные функции защиты URL-адресов для предотвращения хотлинкинга и / или принудительного истечения срока действия ссылки. ".
+	"Для того, чтобы снизить вероятность сбоев при загрузках, настройки этого раздела должны быть сделаны перед тем как настроить сервер загрузок.");
+define("LAN_DL_SECURITY_MODE", "Режим защиты URL");
+define("LAN_DL_SECURITY_MODE_NONE", "Нет (по умлчанию)");
+define("LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5", "NGINX secure_link_md5");
+define("LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE", "Нажмите, для просмотра списка поддерживаемых NGINX переменных");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION",
+	"<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>NGINX secure_link_md5 expression</a>");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP", "Такое же регулярное выражение, как в настройках сервера");
+define("LAN_DL_SECURITY_LINK_EXPIRY", "Продолжительность действия в секундах");
+define("LAN_DL_SECURITY_LINK_EXPIRY_HELP", "Количество секунд, в течение которых ссылка на скачивание должна быть валидной после ее генерации. " .
+	"Эффективно только в случае, если регулярное выражение поддерживает формат времени истечения действия. " .
+    "Если оставить поле пустым, то по умолчанию устанавливается длительное время.");
 ?>

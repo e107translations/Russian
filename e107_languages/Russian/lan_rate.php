@@ -13,7 +13,7 @@
 define("RATELAN_0", "Оценка");
 define("RATELAN_1", "Голоса");
 define("RATELAN_2", "Вaшa оценкa?");
-define("RATELAN_3", "Спасибо за голосование!");
+define("RATELAN_3", "Спасибо за вашу оценку!");
 define("RATELAN_4", "Без оценки");
 define("RATELAN_5", "Дaть оценку:");
 define("RATELAN_6", "Войдите, чтобы проголосовать");

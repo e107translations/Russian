@@ -5,4 +5,5 @@
 // https://github.com/e107inc/multilan
 
 define("LAN_PLUGIN_IMPORT_NAME", "Импорт в e107");
-define("LAN_PLUGIN_IMPORT_DESCRIPTION", "Импорт данных из Wordpress, Joomla, Drupal, Blogpost, RSS и другие форматы.");
+define("LAN_PLUGIN_IMPORT_DESCRIPTION", "Импорт данных из Wordpress, Joomla, Drupal, Blogpost, RSS и другиx");
+?>

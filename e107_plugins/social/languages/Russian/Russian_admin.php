@@ -45,7 +45,7 @@ define("LAN_SOCIAL_ADMIN_34", "Кол-во твитов для отображе�
 define("LAN_SOCIAL_ADMIN_35", "Светлый");
 define("LAN_SOCIAL_ADMIN_36", "Темный");
 define("LAN_SOCIAL_ADMIN_37", "Мета-теги Open Graph");
-define("LAN_SOCIAL_ADMIN_38", "Пределы");
+define("LAN_SOCIAL_ADMIN_38", "Параметры запроса scope");
 define("LAN_SOCIAL_ADMIN_39", "Соцсети");
 define("LAN_SOCIAL_ADMIN_40", "Обновить отображаемое имя пользователя");
 define("LAN_SOCIAL_ADMIN_41", "Обновить аватар пользователя");

@@ -63,4 +63,14 @@ define("LANHELP_51", "Отключить новые строки в HTML для 
 define("LANHELP_52", "Новая строка (HTML): [br]");
 define("LANHELP_53", "Выровнять по ширине:\n[justify]Этот текст будет выровнен по ширине[/justify]");
 define("LANHELP_54", "Блок HTML (тег div): [block]Ваше содержимое[/block]");
-?>
+define("LANHELP_55", "Формат");
+define("LANHELP_56", "Вставить таблицу");
+define("LANHELP_57", "Заголовок");
+define("LANHELP_58", "Блок");
+define("LANHELP_59", "Цитата");
+define("LANHELP_60", "Блок с кодом");
+define("LANHELP_61", "Код в строке");
+define("LANHELP_62", "Параграф");
+define("LANHELP_63", "Вставить изображение из Менеджера медиа файлов");
+define("LANHELP_64", "Вставить файл из Менеджера медиа файлов");
+define("LANHELP_65", "Размер");

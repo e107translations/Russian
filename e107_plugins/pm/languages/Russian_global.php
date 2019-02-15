@@ -8,7 +8,7 @@
  *
  * Translated language file $
  * $Revision 1.1 $
- * $Date 2017/12/24 $
+ * $Date 2018/04/21 $
  * $Author net1313 $
  */
 define ("PMLAN_PM", "Личные сообщения");
@@ -18,7 +18,7 @@ define("LAN_PLUGIN_PM_URL_DEFAULT_LABEL", "По умолчанию");
 define("LAN_PLUGIN_PM_URL_DEFAULT_DESCR", "По умолчанию");
 define("LAN_PLUGIN_PM_INBOX", "Входящие");
 define("LAN_PLUGIN_PM_OUTBOX", "Исходящие");
-define("LAN_PLUGIN_PM_NEW", "Приватное сообщение");
+define("LAN_PLUGIN_PM_NEW", "Отправить ЛС");
 define("LAN_PLUGIN_PM_TO", "Кому");
 define("LAN_PLUGIN_PM_FROM", "От");
 define("LAN_PLUGIN_PM_SUB", "Тема сообщения");

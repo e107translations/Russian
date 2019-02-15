@@ -21,7 +21,7 @@ define("LAN_NP_URLNEXT", "Перейти на следующую");
 define("LAN_NP_LAST", "последняя");
 define("LAN_NP_URLLAST", "Перейти к последней");
 define("LAN_NP_GOTO", "Перейти на страницу [x]");
-define("LAN_NP_URLCURRENT", "Сейчас просматривает");
+define("LAN_NP_URLCURRENT", "Эта страница");
 define("NP_CAPTION", "Страница [x] из [y]");
 
 ?>

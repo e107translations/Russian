@@ -1,9 +1,17 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/12/30 03:09:00
+|
+|        $Author: net1313 $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+define("LAN_PLUGIN__BLANK_NAME", "Пустой Плагин");
+define("LAN_PLUGIN__BLANK_DIZ",  "Пустой плагин, чтобы помочь вам начать разработку собственного плагина. Здесь вы можете добавить более подробную информацию."); 
+define("LAN_PLUGIN__BLANK_LINK", "Ссылка плагина");
 
-define("LAN_PLUGIN__BLANK_NAME", "Пустой плагин");
-define("LAN_PLUGIN__BLANK_DIZ", "Пустой плагин, чтобы помочь вам начать работу на плагин развития. Подробности могут быть добавлены здесь.");
-define("LAN_PLUGIN__BLANK_LINK", "Пустая ссылка");
+?>

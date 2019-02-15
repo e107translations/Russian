@@ -1,6 +1,6 @@
 <?php
 
-define("LAN_PLUGIN_DOWNLOAD_NAME",  "Архив файлов");
-define("LAN_PLUGIN_DOWNLOAD_DIZ",  "Этот плагин является полнофункциональной системой скачивания файлов");
+define("LAN_PLUGIN_DOWNLOAD_NAME",  "Скачивание файлов");
+define("LAN_PLUGIN_DOWNLOAD_DIZ",  "Плагин является полнофункциональной системой скачивания файлов");
 
 ?>

@@ -1,28 +1,29 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Russian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/08/14 01:57:24
-|
-|        $Author: admin $
-+---------------------------------------------------------------+
+ * e107 website system
+ *
+ * Copyright (C) 2008-2016 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Plugin - newsletter
+ *
 */
 
-define("NLLAN_MENU_CAPTION", "Информационный бюллетень");
-define("NLLAN_48", "Вы подписались из этого бюллетеня - если вы хотите отказаться от подписки, пожалуйста, нажмите на кнопку ниже.");
-define("NLLAN_49", "Вы уверены, что вы хотите, чтобы ООН-подписаться из этого бюллетеня?");
-define("NLLAN_50", "Нажмите кнопку Подписаться (ваш адрес подписки —");
-define("NLLAN_51", "Отписаться");
-define("NLLAN_52", "Подписаться");
-define("NLLAN_53", "Вы уверены, что вы хотите, чтобы подписаться на эту рассылку?");
-define("NLLAN_67", "Обзор Архив");
-define("NLLAN_68", "Недопустимый параметр определен");
-define("NLLAN_69", "Послал рассылки доступны.");
-define("NLLAN_70", "Не существует отдельных бюллетень");
-define("NLLAN_72", "Посмотреть архив");
-define("NLLAN_73", "Введите ваш адрес электронной почты");
+define("NLLAN_MENU_CAPTION", "Рассылка новостей");
 
+define("NLLAN_48", "Вы подписаны на рассылку новостей. Если хотите отказаться от подписки, нажмите на кнопку ниже.");
+define("NLLAN_49", "Хотите отказаться от подписки?");
+define("NLLAN_50", "Нажмите кнопку, чтобы подписаться (ваш адрес эл. почты ");
+define("NLLAN_51", "Отказаться от подписки");
+define("NLLAN_52", "Подписаться на рассылку");
+define("NLLAN_53", "Хотите подписаться на эту рассылку?");
 
-?>
+define("NLLAN_67", "Обзор архива новостей");
+define("NLLAN_68", "Недопустимый параметр ");
+define("NLLAN_69", "Пока нет информационных рассылок");
+define("NLLAN_70", "Выбранная рассылка не существует");
+//define("NLLAN_71", "Back"); 
+define("NLLAN_72", "Просмотр архива");
+
+define("NLLAN_73", "Введите ваш Email");

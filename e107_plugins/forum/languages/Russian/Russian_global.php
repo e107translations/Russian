@@ -1,20 +1,15 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Russian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2016/08/14 02:26:18
-|
-|        $Author: admin $
-+---------------------------------------------------------------+
-*/
+
 define("LAN_PLUGIN_FORUM_NAME", "Форум");
-define("LAN_PLUGIN_FORUM_DESC", "Этот плагин представляет собой полнофункциональный форум систему.");
-define("LAN_PLUGIN_FORUM_POSTS", "Все сообщения на форуме");
-define("LAN_PLUGIN_FORUM_ALLFORUMS", "Все форумы");
-define("LAN_PLUGIN_FORUM_LATESTPOSTS", "Последние Сообщении");
-define("FORUM_LAN_URL_DEFAULT_LABEL", "По умолчанию URL-адреса форумов");
-define("FORUM_LAN_URL_REWRITE_LABEL", "SEF URL-адреса форумов (в разработке)");
-define("FORUM_LAN_URL_REWRITE_DESCR", "Примеры:<br>СТАДИИ РАЗРАБОТКИ");
-define("FORUM_LAN_URL_DEFAULT_DESCR", "URL-адреса типа «GET» с не одной точкой входа. Примеры:<br>http://yoursite.com/e107_plugins/Forum/Forum.php (форум)<br>http://yoursite.com/e107_plugins/Forum/forum_viewtopic.php?ID=2 (представление потоков)");
+define("LAN_PLUGIN_FORUM_DESC", "Плагин является полнофункциональной системой форума.");
+define("LAN_PLUGIN_FORUM_POSTS", "Сообщений форума");
+define("LAN_PLUGIN_FORUM_ALLFORUMS", "Все Форумы");
+define("LAN_PLUGIN_FORUM_LATESTPOSTS", "Последние сообщения");
+
+define("FORUM_LAN_URL_DEFAULT_LABEL", "URLs форума по умолчанию");
+define("FORUM_LAN_URL_DEFAULT_DESCR", "URL-адреса типа «GET» без единой точки входа. Например:<br />http://yoursite.com/e107_plugins/forum/forum.php (главная форума)<br />http://yoursite.com/e107_plugins/forum/forum_viewtopic.php?id=2 (просмотр темы)");
+
+define("FORUM_LAN_URL_REWRITE_LABEL", "ЧПУ URLы Форума (В СТАДИИ РАЗРАБОТКИ)");
+define("FORUM_LAN_URL_REWRITE_DESCR", "Примеры:<br />В СТАДИИ РАЗРАБОТКИ");
+
+?>

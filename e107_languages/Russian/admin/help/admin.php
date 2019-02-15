@@ -10,8 +10,8 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Панель Управления";
-$text = "Эта страница предоставляет сведения об активности сайта.<br /><br />";
+$caption = "Панель управления";
+$text = "Активность на сайте<br />";
 
 if(e107::getPref('admincss')=='admin_dark.css' && deftrue('BOOTSTRAP') !== 3)
 {

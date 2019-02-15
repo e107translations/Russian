@@ -1,5 +1,6 @@
 [![N|Solid](https://e107-ru.com/thumb.php?src=e_MEDIA_IMAGE%2F2018-04%2Flogo2.png&w=0&h=150)](https://e107-ru.com)
-# Localization_e107_2.1.9_Russian_ru_RU-utf8
+
+# RUSSIAN Language Packs for e107 V 2.1.9
 
 ### Русский:
 
@@ -9,7 +10,7 @@
 
 **Кодировка:**		utf8 without BOM
 
-**Версия перевода:**	Стабильный релиз (обновлено 15-02-2019)
+**Версия перевода:**	Обновленный релиз (обновлено 15-02-2019)
 
 **Версия e107cms:**		2.1.9
 
@@ -20,13 +21,13 @@
 ***
 ### English:
 
-**Name:**	Russian language pack, release for version 2.1.9
+**Name:**	Russian language packs for version 2.1.9
 
 **Description:**	Translation of the Admin Panel, translation of some plugins and Admin theme Bootstrap3.
 
 **Charset:**		utf8 without BOM
 
-**Translation version:**	Stable (last updated 02-15-2019)
+**Translation version:**	Latest stable release (last updated 02-15-2019)
 
 **Version e107cms:**	2.1.9
 

@@ -12,7 +12,7 @@
 
 
 define("UTHEME_MENU_L1", "Установить");
-define("UTHEME_MENU_L2", "Выброр языка");
+define("UTHEME_MENU_L2", "Выбор языка");
 define("UTHEME_MENU_L3", "таблицы");
 
 define("LAN_UMENU_THEME_1", "Установка темы");
@@ -21,6 +21,6 @@ define("LAN_UMENU_THEME_3", "Пользователи:");
 define("LAN_UMENU_THEME_4", "Активировать темы, доступные для выбора");
 define("LAN_UMENU_THEME_5", "Обновить");
 define("LAN_UMENU_THEME_6", "Доступные пользователям темы");
-define("LAN_UMENU_THEME_7", "Рразрешить выбор тем классу пользователей");
+define("LAN_UMENU_THEME_7", "Разрешить выбор тем классу пользователей");
 define("LAN_UMENU_THEME_8", "Доступные темы:");
-define("LAN_UMENU_THEME_9", "Рразрешить выбор классу пользователей:");
+define("LAN_UMENU_THEME_9", "Разрешить выбор классу пользователей:");

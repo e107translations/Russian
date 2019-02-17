@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/17 22:18:26
+|        Last Modified: 2019/02/17 00:29:26
 |
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("CACLAN_1", "Состояние кэша");
@@ -19,7 +19,7 @@ define("CACLAN_11", "Кэш Контента");
 define("CACLAN_12", "Системный кэш");
 define("CACLAN_13", "Кэш контента сохраняет и генерирует страницу. Это включает в себя всё содержание, в том числе и html код, выполняемый системой при отдаче страницы.");
 define("CACLAN_14", "Системный кэш содержит сведения о конфигурации системы. Он включает в себя настройки сайта, активные меню и т.д. Данный кэш не содержит контент.");
-define("CACLAN_16", "Очитстить системный кэш");
+define("CACLAN_16", "Очистить системный кэш");
 define("CACLAN_17", "Содержит");
 define("CACLAN_18", "файл");
 define("CACLAN_19", "файла");

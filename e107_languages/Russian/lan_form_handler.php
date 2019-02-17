@@ -6,7 +6,7 @@
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2018/12/20 02:28:40
 |
-|        $Author: fsLeg $ net1313
+|        $Author: fsLeg $ net1313 https://e107-ru.com
 +---------------------------------------------------------------+
 */
 

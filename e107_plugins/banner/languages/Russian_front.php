@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/15 23:10:12
+|        Last Modified: 2019/02/17 01:29:12
 |
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("BANNERLAN_19", "Введите логин и пароль клиента");
@@ -22,4 +22,4 @@ define("BANNERLAN_28", "Остaлось показов");
 define("BANNERLAN_30", "Неограниченно");
 define("BANNERLAN_31", "Не применимо");
 define("BANNERLAN_35", "Переходов с IP-адресов");
-define("BANNERLAN_39", "Этому баннеру не назначено изображения.");
+define("BANNERLAN_39", "Этому баннеру не назначено изображение.");

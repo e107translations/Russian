@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/25 19:38:06
+|        Last Modified: 2019/02/17 00:45:06
 |
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 
@@ -16,7 +16,7 @@ define("LAN_UPDATE_4", "Обновить [x] на [y]");
 define("LAN_UPDATE_5", "Обновление структуры базы данных");
 define("LAN_UPDATE_7", "Выполнено [x]");
 define("LAN_UPDATE_12", "Одна из ваших таблиц содержит дубликаты записей");
-define("LAN_UPDATE_13", "Новые или отсутствующие настройки ядра");
+define("LAN_UPDATE_13", "Новые, или отсутствующие настройки ядра");
 define("LAN_UPDATE_14", "Начальная версия:");
 define("LAN_UPDATE_20", "Обновить настройки основного(ых) параметра(ов):");
 define("LAN_UPDATE_21", "Обновление структуры таблиц:");

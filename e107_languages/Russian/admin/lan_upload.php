@@ -6,7 +6,7 @@
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2017/12/25 20:48:24
 |
-|        $Author: admin $ net1313
+|        $Author: admin $ net1313 https://e107-ru.com
 +---------------------------------------------------------------+
 */
 

@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/10 22:30:44
+|        Last Modified: 2019/02/17 01:22:44
 |
-|        $Author: fsLeg $ net1313
+|        $Author: fsLeg $ net1313 https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("PAGE_NAME", "Обновление пароля");

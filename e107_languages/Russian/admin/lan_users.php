@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2018/10/29 02:55:02
+|        Last Modified: 2019/02/17 01:14:02
 |
-|        $Author: admin  net1313 $
+|        $Author: admin  net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("USRLAN_1", "Настройки сохранены");
@@ -137,7 +137,7 @@ define("USRLAN_187", "Доступ к веб-сайту:");
 define("USRLAN_188", "Письмо успешно отправлено");
 define("USRLAN_189", "Ошибка отправки почты");
 define("USRLAN_190", "Испытательный период для нового пользователя");
-define("USRLAN_191", "Администратор может ввести ограничения в этот период в некоторых областях");
+define("USRLAN_191", "Администратор может ввести ограничения на этот период в некоторых областях");
 define("USRLAN_192", "");
 define("USRLAN_193", "Без изменений - не сохранено");
 define("USRLAN_194", "Разрешить менять свои подписи");

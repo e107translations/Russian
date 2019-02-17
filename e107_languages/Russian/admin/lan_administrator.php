@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/25 19:12:12
+|        Last Modified: 2018/12/25 19:12:12
 |
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("ADMSLAN_6", "Главный администратор сайта не может быть удален");

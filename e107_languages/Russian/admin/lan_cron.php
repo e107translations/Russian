@@ -5,7 +5,7 @@
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2019/02/04 23:17:02
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 if (!defined("PAGE_NAME")) { define("PAGE_NAME", "Планировщик задач"); }

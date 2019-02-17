@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/07 04:05:40
+|        Last Modified: 2019/02/17 00:40:40
 |
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("DBLAN_1", "Основные параметры настроек сохранены в БД");
@@ -108,8 +108,8 @@ define("DBLAN_109", "Скопировано:");
 define("DBLAN_110", "Не удалось скопировать:");
 define("DBLAN_111", "С таблицами все в порядке!");
 
-define("DBLAN_112", "Синхронизизровать с Github");
-define("DBLAN_113", "Перезаеписать файлы");
+define("DBLAN_112", "Синхронизировать с Github");
+define("DBLAN_113", "Перезаписать файлы");
 define("DBLAN_114", "Режим разработчика");
 define("DBLAN_115", "Заменить файлы на новую версию файлов с github.");
 define("DBLAN_116", "Загрузит новую версию .zip-файла из github в ");

@@ -6,7 +6,7 @@
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2017/12/17 22:13:49
 |
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("LAN_EURL_NAME", "Управление URL");
@@ -53,7 +53,7 @@ define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSL", "разделитель'+' +и+ ни
 define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSC", "разделитель'+' +и+ СлитноКаждоеСловоСЗаглавной");
 define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUS", "разделитель'+' +без+замены+регистра");
 
-define("LAN_EURL_MODREWR_DESCR", "Удаляет из строки URL-адреса название файла входа (index.php/). Для Aapache веб-сервера нужно подключить mod_rewrite. После чего, в корневой папке сайта переименуйте htaccess.txt на .htaccess и если необходимо, измените <em>«RewriteBase»</em> директиву.");
+define("LAN_EURL_MODREWR_DESCR", "Удаляет из строки URL-адреса название файла входа (index.php/). Для Aapache веб-сервера нужно подключить mod_rewrite. После чего, в корневой папке сайта переименуйте htaccess.txt на .htaccess и если необходимо, измените директиву <em>«RewriteBase»</em>.");
 
 define("LAN_EURL_MENU", "URL-адреса сайта");
 define("LAN_EURL_MENU_CONFIG", "Строка параметров URL");
@@ -79,10 +79,10 @@ define("LAN_EURL_NEWS_REWRITEF_LABEL", "Полностью человеко-по
 define("LAN_EURL_NEWS_REWRITEF_DESCR", "..");
 
 define("LAN_EURL_NEWS_REWRITE_LABEL", "Человеко-понятные URL без ID идентификатора (влияет на производительность, но более понятные)");
-define("LAN_EURL_NEWS_REWRITE_DESCR", "Ручной режим парсинга и посторения ссылок.");
+define("LAN_EURL_NEWS_REWRITE_DESCR", "Ручной режим парсинга и построения ссылок.");
 
 define("LAN_EURL_NEWS_REWRITEX_LABEL", "Человеко-понятные URL с идентификатором (производительность)");
-define("LAN_EURL_NEWS_REWRITEX_DESCR", "Производит автоматическое посторение ссылок на основе заданных правил маршрутизации.");
+define("LAN_EURL_NEWS_REWRITEX_DESCR", "Производит автоматическое построение ссылок на основе заданных правил маршрутизации.");
 
 define("LAN_EURL_CORE_USER", "Страница Пользователя");
 
@@ -95,7 +95,7 @@ define("LAN_EURL_PAGE_SEF_LABEL", "Человеко-понятные URL с ид
 define("LAN_EURL_PAGE_SEF_DESCR", "Человеко-понятные URL, в том числе и для поисковых ботов.");
 
 define("LAN_EURL_PAGE_SEFNOID_LABEL", "Человеко-понятные URL без ID (влияет на производительность, но более понятные)");
-define("LAN_EURL_PAGE_SEFNOID_DESCR", "еловеко-понятные URL, в том числе и для поисковых ботов.");
+define("LAN_EURL_PAGE_SEFNOID_DESCR", "человеко-понятные URL, в том числе и для поисковых ботов.");
 
 define("LAN_EURL_CORE_SEARCH", "Поиск");
 define("LAN_EURL_SEARCH_DEFAULT_LABEL", "URL страницы поиска по умолчанию");

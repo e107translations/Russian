@@ -6,7 +6,7 @@
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2017/12/25 19:40:26
 |
-|        $Author:  net1313 $
+|        $Author:  net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("LAN_AUDIT_LOG_001", "Вход забаненного юзера");

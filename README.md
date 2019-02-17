@@ -10,7 +10,7 @@
 
 **Кодировка:**		utf8 without BOM
 
-**Версия перевода:**	Обновленный релиз (обновлено 15-02-2019)
+**Версия перевода:**	Обновленный релиз (обновлено 17-02-2019)
 
 **Версия e107cms:**		2.1.9
 
@@ -27,7 +27,7 @@
 
 **Charset:**		utf8 without BOM
 
-**Translation version:**	Latest stable release (last updated 02-15-2019)
+**Translation version:**	Latest stable release (last update 02-17-2019)
 
 **Version e107cms:**	2.1.9
 

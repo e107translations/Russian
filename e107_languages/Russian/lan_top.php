@@ -4,17 +4,17 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/17 21:30:10
+|        Last Modified: 2019/02/18 23:44:10
 |
-|        $Author: fsLeg  net1313 $
+|        $Author: fsLeg  net1313 https://e107-ru.com $
 +---------------------------------------------------------------+
 */
 
-define("TOP_LAN_0", "Лучшие постеры форума");
+define("TOP_LAN_0", "Лучшие авторы форума");
 define("TOP_LAN_1", "Имя пользователя");
 define("TOP_LAN_2", "Сообщения");
-define("TOP_LAN_3", "Лучшие постеры комментариев");
-define("TOP_LAN_5", "Лучшие постеры в чате");
+define("TOP_LAN_3", "Лучшие авторы комментариев");
+define("TOP_LAN_5", "Лучшие авторы в чате");
 define("TOP_LAN_6", "Рейтинг");
 define("LAN_1", "Тема");
 define("LAN_2", "Автор поста");

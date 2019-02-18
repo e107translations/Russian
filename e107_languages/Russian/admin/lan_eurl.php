@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/17 22:13:49
+|        Last Modified: 2019/02/17 00:52:49
 |
-|        $Author: net1313 $ https://e107-ru.com
+|        $Author: net1313 $
 +---------------------------------------------------------------+
 */
 define("LAN_EURL_NAME", "Управление URL");

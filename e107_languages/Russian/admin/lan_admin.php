@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2019/02/17 00:20:17
+|        Last Modified: 2019/02/17 00:25:30
 |
-|        $Author: net1313 $ https://e107-ru.com
+|        $Author: net1313 $https://e107-ru.com
 +---------------------------------------------------------------+
 */
 define("ADLAN_0", "Новости");
@@ -312,7 +312,7 @@ define("LAN_AUTOMATION", "Автоматически");
 define("LAN_PRESET_CONFIRMSAVE", "Сохранить для этой страницы текущие значения формы как значения по умолчанию?");
 define("LAN_CONFIGURE", "Настройка");
 
-define("LAN_NOPERMISSION", "нет недостаточных прав");
+define("LAN_NOPERMISSION", "нет достаточных прав");
 define("LAN_NO_ADMIN_PERMISSION", "У Вас нет прав администратора для [x]");
 
 define("LAN_CREDITS", "Благодарности");
@@ -477,7 +477,7 @@ define("LAN_SOURCE", "Источник");
 define("LAN_UPGRADING", "Обновить?");
 define("LAN_DONT_SHOW_AGAIN", "Больше не показывать это сообщение");
 
-define("LAN_ERROR_CONNECTION", "Не удается подключиться к обновлениям. Проверьте настройки брандмауэра, или подключение к Интернету.");
+define("LAN_ERROR_CONNECTION", "Не удается подключиться для обновлений. Проверьте настройки брандмауэра, или подключение к Интернету.");
 
 define("LAN_UI_X_CANT_EQUAL_Y", "[x] не может быть таким же, как [y]");
 define("LAN_UI_VIEW_GRID_LABEL", "Просмотр грида");

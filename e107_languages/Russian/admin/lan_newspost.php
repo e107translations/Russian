@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/10 13:15:10
+|        Last Modified: 2019/02/18 22:49:10
 |
-|        $Author: net1313 $
+|        $Author: net1313 https://e107-ru.com $
 +---------------------------------------------------------------+
 */
 define("NWSLAN_4", "Существующие Новости");
@@ -14,7 +14,7 @@ define("NWSLAN_6", "Категория");
 define("NWSLAN_10", "Нет категорий");
 define("NWSLAN_13", "Текст");
 define("NWSLAN_14", "Расширенная");
-define("NWSLAN_18", "Разрешить постить комментарии для этой новости");
+define("NWSLAN_18", "Разрешить комментарии для этой новости");
 define("NWSLAN_19", "Активация");
 define("NWSLAN_21", "Активировать между");
 define("NWSLAN_24", "Просмотреть снова");
@@ -59,7 +59,7 @@ define("NWSLAN_75", "Страница новостей по умолчанию")
 define("NWSLAN_76", "Только заголовок на главной странице новостей");
 define("NWSLAN_77", "Поместить в другое меню новостей");
 define("NWSLAN_83", "Расширенный пост новостей");
-define("NWSLAN_84", "Кому будет видна данная новость");
+define("NWSLAN_84", "Кому будет видна эта новость");
 define("NWSLAN_86", "Показ категорий в нижнем меню (footer)");
 define("NWSLAN_87", "Kолонок категорий");
 define("NWSLAN_88", "Количество новостей на странице");
@@ -120,13 +120,13 @@ define("LAN_NEWS_73", "Боковая панель - Другие новости
 define("LAN_NEWS_74", "Карусель");
 define("LAN_NEWS_75", "Featurebox");
 define("LAN_NEWS_87", "например, blogsearch.google.com/ping/RPC2");
-define("LAN_NEWS_88", "Определяет, как должна отображаться страница новостей по умолчанию");
+define("LAN_NEWS_88", "Определяет как должна отображаться страница новостей по умолчанию");
 define("LAN_NEWS_89", "Оповещать сервисы при создании/обновлении новостей");
 define("LAN_NEWS_90", "По одному в строке");
 define("LAN_NEWS_91", "Количество оглавлений на странице");
 define("LAN_NEWS_92", "напр. news.php?all или news.php?cat.1 или news.php?tag=xxx");
 define("LAN_NEWS_93", "Отображение новостей");
-define("LAN_NEWS_94", "Элементы, назначенные в эти шаблоны, будут отображаться в списке");
+define("LAN_NEWS_94", "Элементы, назначенные в эти шаблоны, будут отображаться как список");
 define("LAN_NEWS_95", "Другой элемент новостей использует SEF URL: [x]");
 define("LAN_NEWS_96", "Разрешить");
 define("LAN_NEWS_97", "Меню новостей");
@@ -143,4 +143,4 @@ define("LAN_NEWS_107", "Проверка статуса PING");
 define("LAN_NEWS_108", "SEF URL-адрес отличается от заголовка новости");
 define("LAN_NEWS_109", "Получать уведомления на эл. почту о сообщенной новости");
 define("LAN_NEWS_110", "Срок хранения новости в кэше");
-define("LAN_NEWS_111", "Время в минутах. Применяется только тогда, когда системный кэш включен");
+define("LAN_NEWS_111", "Время в минутах. Применяется только когда включен системный кэш");

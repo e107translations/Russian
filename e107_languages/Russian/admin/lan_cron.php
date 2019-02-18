@@ -104,3 +104,4 @@ define("LAN_CRON_BACKUP", "Резервное копирование");
 define("LAN_CRON_LOGGING", "Запись в Журнал логов");
 define("LAN_CRON_RUNNING", "Исполняется");
 
+?>

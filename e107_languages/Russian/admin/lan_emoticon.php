@@ -4,9 +4,9 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/17 22:14:16
+|        Last Modified: 2019/02/18 22:18:16
 |
-|        $Author: net1313 $ https://e107-ru.com
+|        $Author: net1313 https://e107-ru.com $
 +---------------------------------------------------------------+
 */
 
@@ -18,8 +18,8 @@ define("EMOLAN_6", "Код смайлика");
 define("EMOLAN_7", "разделить пробелами");
 define("EMOLAN_11", "Активировать набор");
 define("EMOLAN_13", "Установленные смайлы");
-define("EMOLAN_17", "У вас имеется набор смайликов, который содержит пробелы в названии, что не разрешено!");
-define("EMOLAN_18", "пожалуйста, проверьте следующие наборы смайлов, и удалите в них пробелы");
+define("EMOLAN_17", "Найден набор смайликов в названиях которых содержатся недопустимые пробелы!");
+define("EMOLAN_18", "Пожалуйста, проверьте следующие наборы смайлов, и удалите в них пробелы");
 define("EMOLAN_20", "Расположение");
 define("EMOLAN_21", "Ошибка чтения пакета смайлов");
 define("EMOLAN_22", "Найден новый набор смайликов");

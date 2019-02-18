@@ -1,7 +1,14 @@
 <?php
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Russian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2019/02/18 03:07:54
+|
+|        $Author: admin https://e107-ru.com $
++---------------------------------------------------------------+
+*/
 define("GSLAN_1", "Ссылка");
 define("GSLAN_2", "Импортировать?");
 

@@ -3,10 +3,12 @@
 + ----------------------------------------------------------------------------+
 |     e107 website system - 
 |     social plugin
-|     net1313
+|     Last Modified: 2019/02/18 02:35:50
+|
+|     $Author: net1313 https://e107-ru.com $
 +----------------------------------------------------------------------------+
 */
-define("LAN_SOCIAL_ADMIN_SUMM", "Добавляет Facebook, Twitter и другие виджеты социальных сетей к e107.");
+define("LAN_SOCIAL_ADMIN_SUMM", "Добавляет виджеты Facebook, Twitter и других социальных сетей.");
 define("LAN_SOCIAL_ADMIN_00", "Приложения");
 define("LAN_SOCIAL_ADMIN_01", "Страницы");
 define("LAN_SOCIAL_ADMIN_02", "Вход через Соцсети");  //tab

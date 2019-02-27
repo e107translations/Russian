@@ -33,7 +33,7 @@ if(isset($_POST['reset']))
 				$sql2 ->update("menus", "menu_order='$count' WHERE menu_id='$menu_id' ");
 				$count++;
 			}
-			$text = "<b>Menus reset in database</b><br /><br />";
+			$text = "<b>Меню обновлены в базе данных</b><br /><br />";
 		}
 }
 else
@@ -41,11 +41,11 @@ else
 	unset($text);
 }
 
-$text = "The Menu-Manager allows you to place and arrange your menus within your theme template. 
+$text = "Менеджер меню позволяет устанавливать и настраивать блоки меню в теме вашего сайта. 
 
-[u]Hover[/u] over the sub-areas to modify existing menu items. 
+[u]Навести курсор[/u] на области меню, чтобы изменить отображение. 
 
-If you find the menus are not updating correctly, clicking the refresh button below may help. 
+Если возникают ошибки при изменении меню, следует нажать на кнопку обновления. 
 
 [html]
 <form method='post' id='menurefresh' action='".$_SERVER['PHP_SELF']."'>
@@ -53,9 +53,9 @@ If you find the menus are not updating correctly, clicking the refresh button be
 ".$frm->admin_button('reset','Refresh','cancel')."</div>
 </form>
 [br]
-".e107::getParser()->toGlyph('fa-search')." indicates that the menu's visibility has been modified.
+".e107::getParser()->toGlyph('fa-search')." показывает изменения в отображении меню.
 [/html]
 ";
 
-$text = $tp->toHtml($text, true);
-$ns->tablerender("Menu Manager Help", $text);
+$text = $tp->toHTML($text, true);
+$ns->tablerender("Справка настроек Меню", $text);

@@ -18,7 +18,7 @@ define("LAN_dl_16", "скачиваний с");
 define("LAN_dl_29", "Скачали");
 define("LAN_dl_30", "Email автора");
 define("LAN_dl_31", "Сайт автора");
-define("LAN_dl_36", "Новые загрузки");
+define("LAN_dl_36", "Новые файлы");
 define("LAN_dl_40", "Нажмите для просмотра изображения");
 define("LAN_dl_43", "голос");
 define("LAN_dl_44", "голосов");

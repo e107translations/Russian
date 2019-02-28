@@ -112,7 +112,7 @@ define("LAN_YOUTUBE_VIDEO", "Видео YouTube");
 define("LAN_YOUTUBE_PLAYLIST", "Плейлист YouTube");
 define("LAN_FILETYPES", "Типы файлов");
 define("LAN_FILE_NOT_FOUND", "Файл не найден");
-define("LAN_FILES", "Файлы");
+define("LAN_FILES", "Файла(ов)");
 define("LAN_SIZE", "Объем");
 define("LAN_VERSION", "Версия");
 define("LAN_DOWNLOAD", "Скачать");

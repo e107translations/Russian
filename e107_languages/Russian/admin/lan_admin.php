@@ -179,7 +179,7 @@ define("ADLAN_LAT_1", "Что изменилось");
 define("ADLAN_LAT_2", "Сообщенные новости");
 
 define("ADLAN_LAT_5", "Сообщенные ссылки");
-define("ADLAN_LAT_6", "Новые темы форума");
+define("ADLAN_LAT_6", "Жалобы модератору");
 define("ADLAN_LAT_7", "Файлы в загрузках");
 define("ADLAN_LAT_8", "Сообщения администратору");
 define("ADLAN_LAT_9", "Неразмещенные комментарии");

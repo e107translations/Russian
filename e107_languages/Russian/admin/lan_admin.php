@@ -359,7 +359,7 @@ define("LAN_SEFURL", "ЧПУ (sef-url)");
 define("LAN_COPY", "Скопировать");
 define("LAN_KEYWORDS", "Ключевые слова");
 
-define("LAN_TEMPLATE", "Шаблон");
+define("LAN_TEMPLATE", "Шаблон отображения");
 define("LAN_TEMPLATES", "Шаблоны");
 
 define("LAN_CATEGORIES", "Категории");

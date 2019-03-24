@@ -4,12 +4,12 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/17 22:17:36
+|        Last Modified: 2019/03/24 20:43:36
 |
 |        $Author: net1313 $
 +---------------------------------------------------------------+
 */
-define("CUSLAN_1", "Заголовок");
+define("CUSLAN_1", "Содержание");
 define("CUSLAN_2", "Название страницы");
 define("CUSLAN_3", "Элементов на странице");
 define("CUSLAN_4", "Настраиваемые поля");
@@ -25,7 +25,7 @@ define("CUSLAN_49", "Список меню");
 define("CUSLAN_50", "Список книг/глав");
 define("CUSLAN_51", "Добавить главу/книгу");
 define("CUSLAN_52", "Книга");
-define("CUSLAN_53", "Книга или название главы");
+define("CUSLAN_53", "Заголовок");
 define("CUSLAN_55", "Может быть отредактировано ");
 define("CUSLAN_56", "Родитель");
 define("CUSLAN_57", "Пожалуйста, выберите уникальный SEF URL для этой записи.");
@@ -34,7 +34,7 @@ define("CUSLAN_59", "Страница");
 define("CUSLAN_60", "Параметры страницы");
 define("CUSLAN_61", "Меню");
 define("CUSLAN_62", "Опции меню");
-define("CUSLAN_63", "Книга/глава");
+define("CUSLAN_63", "Привязка к главе");
 define("CUSLAN_64", "Название меню");
 define("CUSLAN_65", "Заголовок меню");
 define("CUSLAN_66", "Содержание меню");

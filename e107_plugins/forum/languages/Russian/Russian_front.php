@@ -25,11 +25,11 @@ define("e_PAGETITLE", "Форум");
 
 // forum.php (forum_template)
 // define("LAN_FORUM_0001", "Forum"); // LAN_46	
-define("LAN_FORUM_0002", "Тем"); // LAN_47 / FORLAN_21
-define("LAN_FORUM_0003", "Ответов"); // LAN_48 / LAN_55
-define("LAN_FORUM_0004", "Последний ответ"); // LAN_49 / FORLAN_22 / LAN_57
-define("LAN_FORUM_0005", "Доступ в этот форум разрешен только администраторам"); // LAN_406
-define("LAN_FORUM_0006", "Доступ в этот форум разрешен только пользователям"); // LAN_407
+define("LAN_FORUM_0002", "Темы"); // LAN_47 / FORLAN_21
+define("LAN_FORUM_0003", "Ответы"); // LAN_48 / LAN_55
+define("LAN_FORUM_0004", "Новый отклик"); // LAN_49 / FORLAN_22 / LAN_57
+define("LAN_FORUM_0005", "Доступ в этот форум только для администраторов"); // LAN_406
+define("LAN_FORUM_0006", "Сайт e107 ru открыт для общения. Для начала войдите"); // LAN_407
 define("LAN_FORUM_0007", "Форум только для чтения"); // LAN_408
 define("LAN_FORUM_0008", "Доступ в этот форум разрешен для определенного класса"); // LAN_409
 define("LAN_FORUM_0009", "Отчет"); // LAN_191 
@@ -42,12 +42,12 @@ define("LAN_FORUM_0015", "Мои загрузки"); // FORLAN_442
 define("LAN_FORUM_0016", "Правила Форума"); // LAN_433// define("FORLAN_165", "Execute functions");
 define("LAN_FORUM_0017", "Смотреть статистику форума"); // LAN_441
 define("LAN_FORUM_0018", "Добро пожаловать "); // LAN_30
-define("LAN_FORUM_0019", "нет новых ответов"); // LAN_31
+define("LAN_FORUM_0019", "нет новых постов"); // LAN_31
 define("LAN_FORUM_0020", "Есть 1 новый пост "); // LAN_32
 define("LAN_FORUM_0021", "Есть"); // LAN_33
-define("LAN_FORUM_0022", "новые посты"); // LAN_34
+define("LAN_FORUM_0022", "новые ответы"); // LAN_34
 define("LAN_FORUM_0023", "со времени Вашего прошлого визита.");  // LAN_35
-define("LAN_FORUM_0024", "Последний раз вы посещали форум ");  // LAN_36
+define("LAN_FORUM_0024", "Последний раз Вы посещали форум ");  // LAN_36
 define("LAN_FORUM_0025", "Сегодня");  // LAN_37
 //define("LAN_FORUM_0026", ", all times are ");  // LAN_38 
 define("LAN_FORUM_0027", "Вы прочитали"); // LAN_196
@@ -62,13 +62,13 @@ define("LAN_FORUM_0035", "ответов"); // LAN_414
 define("LAN_FORUM_0036", "Кто в сети: "); // LAN_426
 define("LAN_FORUM_0037", "Отобразить полный список"); // LAN_427
 define("LAN_FORUM_0038", "(Будет открыто в новом окне)"); // LAN_436
-define("LAN_FORUM_0039", "Новые посты"); // LAN_79 // LAN_79 (vf)
-define("LAN_FORUM_0040", "Нет новых"); // LAN_80 / LAN_80 (vf)
+define("LAN_FORUM_0039", "Новые"); // LAN_79 // LAN_79 (vf)
+define("LAN_FORUM_0040", "Без перемен"); // LAN_80 / LAN_80 (vf)
 define("LAN_FORUM_0041", "Закрытый форум"); // LAN_394
 //define("LAN_FORUM_0042", "Search"); /// LAN_180 => Generic term, moved to e107_languages/English.php LAN_SEARCH
 define("LAN_FORUM_0043", "Вы можете создaть новые темы"); // LAN_204 // FIXME "can / cannot" in bold? 0043-0048
 define("LAN_FORUM_0044", "Вы НЕ можете создaвать темы"); // LAN_205
-define("LAN_FORUM_0045", "Отвечайте в темах"); // LAN_206
+define("LAN_FORUM_0045", "Отвечайте в постах"); // LAN_206
 define("LAN_FORUM_0046", "Вы не можете отвечать в темах"); // LAN_207
 define("LAN_FORUM_0047", "Редактируйте свои ответы"); // LAN_208
 define("LAN_FORUM_0048", "и редактировать свои ответы"); // LAN_209
@@ -82,7 +82,7 @@ define("LAN_FORUM_0053", "Только зарегистрированные по
 define("LAN_FORUM_0054", "здесь"); // LAN_438
 define("LAN_FORUM_0055", "для авторизации."); // LAN_440
 
-define("LAN_FORUM_0056", "Доступ ограничен"); // LAN_405
+define("LAN_FORUM_0056", "Доступ ограничен"); // LAN_405 Доступ ограничен
 
 define("LAN_FORUM_0057", "Отметить все как прочтенные"); // LAN_199 
 define("LAN_FORUM_0058", "Посмотреть новые посты"); // LAN_421
@@ -115,25 +115,25 @@ define("LAN_FORUM_1001", "Форумы"); // LAN_01
 define("LAN_FORUM_1002", "Подфорум"); // FORLAN_20
 define("LAN_FORUM_1003", "Тема"); // LAN_55
 define("LAN_FORUM_1004", "Автор"); // LAN_54
-define("LAN_FORUM_1005", "Просмотров"); // LAN_56
+define("LAN_FORUM_1005", "Просмотры"); // LAN_56
 
-define("LAN_FORUM_1006", "Важные темы"); // LAN_411 (vf)
+define("LAN_FORUM_1006", "Популярные темы"); // LAN_411 (vf)
 define("LAN_FORUM_1007", "Темы"); // LAN_412 (vf)
 define("LAN_FORUM_1008", "В этом форуме пока не созданы темы"); // LAN_58
 define("LAN_FORUM_1009", "Модератор форума"); // LAN_404
-define("LAN_FORUM_1010", "[популярные]"); // LAN_395 (vf)
-define("LAN_FORUM_1011", "Прикреплена"); // LAN_202
+define("LAN_FORUM_1010", " в [топе]"); // LAN_395 (vf)
+define("LAN_FORUM_1011", "Прикреплено"); // LAN_202
 define("LAN_FORUM_1012", "Прикреплена/Закрыта"); // LAN_203 / 
 define("LAN_FORUM_1013", "Объявление"); // LAN_396 // FORLAN_17
 define("LAN_FORUM_1014", "Тема закрыта"); // LAN_81 / FORLAN_18
 define("LAN_FORUM_1015", "[удалено пользователем]"); // FORLAN_19 (vf)
 define("LAN_FORUM_1016", "Опрос"); // FORLAN_23
 
-define("LAN_FORUM_1017", "Перейти"); // LAN_401 (p?)
+define("LAN_FORUM_1017", "Перейти к теме "); // LAN_401 (p?)
 define("LAN_FORUM_1018", "Новая тема");
 // define("LAN_FORUM_1019", "Are you sure?"); // new
 define("LAN_FORUM_1020", "Изменить");
-define("LAN_FORUM_1021", "Без ответов");
+define("LAN_FORUM_1021", "Отсутствует");
 
 // starting at LAN_FORUM_2xxx => forum_viewtopic.php
 define("LAN_FORUM_2001", "Предыдущая"); // LAN_389 
@@ -153,13 +153,13 @@ define("LAN_FORUM_2013", "Нет следующей темы"); // LAN_405 (vt)
 define("LAN_FORUM_2015", "Текст"); // LAN_403 (vt)
 define("LAN_FORUM_2016", "Правки"); // LAN_29 
 define("LAN_FORUM_2017", "автор"); // FORLAN_BY
-define("LAN_FORUM_2018", "Сообщение о посте на сайте "); // LAN_422 (vt)
+define("LAN_FORUM_2018", "Сообщение модератору "); // LAN_422 (vt)
 define("LAN_FORUM_2019", "Сообщение от"); // LAN_425 (vt)
 define("LAN_FORUM_2020", "Тема форума сообщена"); // LAN_421 (vt)
-define("LAN_FORUM_2021", "Сообщение о посте было отправлено"); // LAN_428
+define("LAN_FORUM_2021", "Сообщение было отправлено"); // LAN_428
 define("LAN_FORUM_2022", "Вернуться к форуму"); // LAN_429
 define("LAN_FORUM_2023", "Жалоба модератору"); // LAN_414 (vt)
-define("LAN_FORUM_2024", "Сообщение о посте в теме"); // LAN_426
+define("LAN_FORUM_2024", "Сообщение о посте в теме "); // LAN_426
 define("LAN_FORUM_2025", "Название темы"); // LAN_415
 define("LAN_FORUM_2026", "Смотреть пост"); // LAN_420
 define("LAN_FORUM_2027", "Вы можете сообщить модератору об этой теме, а также объяснить Ваше нежелание просматривать ее на сайте."); // LAN_417
@@ -223,9 +223,9 @@ define("LAN_FORUM_3042", "Новая тема/топик");
 define("LAN_FORUM_3043", "Спасибо"); // LAN_133 (p)
 // define("LAN_FORUM_3044", "Click here to return to the forum"); // LAN_326
 define("LAN_FORUM_3045", "Опрос успешно добавлен"); // LAN_413
-define("LAN_FORUM_3046", "Нажмите для просмотра вашего опроса"); // LAN_414
-define("LAN_FORUM_3047", "Ваше сообщение успешно отправлено"); // LAN_324
-define("LAN_FORUM_3048", "Щелкните для просмотра вашего сообщения"); // LAN_325
+define("LAN_FORUM_3046", "Просмотреть опрос"); // LAN_414
+define("LAN_FORUM_3047", "Ваш ответ добавлен"); // LAN_324
+define("LAN_FORUM_3048", "Вернуться к теме"); // LAN_325
 define("LAN_FORUM_3049", "Ваш ответ добавлен"); // LAN_415
 define("LAN_FORUM_3050", "Пункт раздела");
 define("LAN_FORUM_3051", "Новое местоположение");
@@ -318,7 +318,7 @@ define("LAN_FORUM_8012", "Видимость");
 define("LAN_FORUM_8013", "Опции");
 
 // -------- Forum Post------------
-define("LAN_FORUM_8014", "Этот пост и каждый ответ под ним будут перенесены в новую тему");
+define("LAN_FORUM_8014", "Этот пост и каждый пост под ним будут перенесены в новую тему");
 define("LAN_FORUM_8015", "Внимание!");
 define("LAN_FORUM_8016", " (Текущая)");
 
@@ -337,5 +337,8 @@ define("LAN_FORUM_8027", "Не выбрано никаких действий");
 define("LAN_FORUM_8028", "Вернуться"); 
 define("LAN_FORUM_8029", "Создана новая тема!");
 define("LAN_FORUM_8030", "Пост не удален (необходимы права модератора)");
+
+define("LAN_FORUM_GOPAGE", "страницы"); //Eric
+define("LAN_FORUM_SEARCH", "Поиск в форуме"); //Eric
 
 ?>

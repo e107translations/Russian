@@ -25,14 +25,9 @@ define("UE_LAN_23", "Использование");
 define("UE_LAN_HIDE", "Скрыть от пользователей");
 define("UE_LAN_LOCATION", "Местоположение");
 define("UE_LAN_LOCATION_DESC", "Местоположение пользователя");
-define("UE_LAN_AIM", "Адрес AIM");
-define("UE_LAN_AIM_DESC", "Адрес AIM");
 define("UE_LAN_ICQ", "Номер ICQ");
 define("UE_LAN_ICQ_DESC", "Номер ICQ");
-define("UE_LAN_YAHOO", "Адрес Yahoo!");
-define("UE_LAN_YAHOO_DESC", "Адрес Yahoo!");
-define("UE_LAN_MSN", "MSN");
-define("UE_LAN_MSN_DESC", "Адрес MSN");
+
 define("UE_LAN_HOMEPAGE", "Домашняя страница");
 define("UE_LAN_HOMEPAGE_DESC", "Домашняя страница пользователя (URL)");
 define("UE_LAN_BIRTHDAY", "День рождения");

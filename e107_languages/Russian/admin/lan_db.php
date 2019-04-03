@@ -4,7 +4,7 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2019/02/17 00:41:40
+|        Last Modified: 2019/04/04 00:21:12
 |
 |        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
@@ -51,9 +51,9 @@ define("DBLAN_51", "Выполнить выбранный");
 define("DBLAN_52", "Удаление дубликатов");
 define("DBLAN_53", "Выбор действия");
 define("DBLAN_54", "Проверка не выявила ошибок");
-define("DBLAN_55", "Сканироавть каталог шорткодов (shortcode) на наличие изменений");
-define("DBLAN_56", "Сканировать изменения в каталогах");
-define("DBLAN_57", "Список изменений шорткодов установлен на");
+define("DBLAN_55", "Проверка каталога переопределения/замены шорткодов");
+define("DBLAN_56", "Скан переопределения шорткодов");
+define("DBLAN_57", "Список переопределенных шорткодов в катологе override/shortcodes/single ");
 define("DBLAN_58", "Экспорт данных сайта");
 define("DBLAN_59", "Импорт данных сайта");
 define("DBLAN_60", "Резервное копирование файлов завершено!");
@@ -100,7 +100,7 @@ define("DBLAN_101", "Экспортировать файл");
 define("DBLAN_102", "Настройки экспорта");
 define("DBLAN_103", "Вставка"); //inserted
 define("DBLAN_104", "Вставка не удалась");
-define("DBLAN_105", "Пакетная обработка шорткодов:");
+define("DBLAN_105", "Переопределенные шорткоды пакетной обработки в каталоге override/shortcodes/batch: ");
 define("DBLAN_106", "(пусто)");
 define("DBLAN_107", "[folder] каталог не доступен для записи");
 define("DBLAN_108", "Создано:");

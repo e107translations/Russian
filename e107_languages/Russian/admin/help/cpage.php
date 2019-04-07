@@ -16,7 +16,7 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = "Здесь можно создать свои страницы, или меню с вашим контентом.<br />Меню и Страницы связанны между собой, и любое меню легко можно связать со страницей. ";
+$text = "Здесь можно создать свои страницы, или меню с вашим контентом.<br />Меню и Страницы связаны между собой, и любое меню легко можно связать со страницей. ";
 // $text .= "Please see <a href='http://docs.e107.org/Using Custom Pages and Custom Menus'>http://docs.e107.org/Using Custom Pages and Custom Menus</a> for an explanation of all the features.";
 
-$ns -> tablerender('Помощь Меню/Страниц', $text);
+$ns -> tablerender('Справка: Меню/Страницы', $text);

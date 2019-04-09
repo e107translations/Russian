@@ -338,7 +338,7 @@ define("LAN_FILTER", "Фильтр");
 
 define("LAN_STATUS", "Текущее состояние");
 
-define("LAN_URL", "URL-аргумент");
+define("LAN_URL", "URL-адрес");
 define("LAN_OWNER", "Владелец");
 define("LAN_PURCHASE", "Купить");
 define("LAN_DOWNLOADING", "Загрузка");

@@ -4,12 +4,12 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/12/17 21:15:30
+|        Last Modified: 2019/04/11 00:55:25
 |        Language file
-|        $Author: net1313 $
+|        $Author: net1313 $ https://e107-ru.com
 +---------------------------------------------------------------+
 */
-define("COMLAN_0", "[заблокировано администратором]");
+define("COMLAN_0", "[скрыт администратором]");
 define("COMLAN_1", "Разблокировать");
 define("COMLAN_2", "Заблокировать");
 define("COMLAN_4", "Информация");

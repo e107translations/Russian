@@ -495,5 +495,6 @@ define("LAN_SUCC_RECALCULATE_COMMENT_COUNT", "Комментарии успеш�
 define("LAN_NO_RESULTS_FOUND", "Результатов не найдено");
 
 define("LAN_UI_DROPZONE_DROP_FILES", "Для загрузки перетащите файлы сюда");
+define("LAN_DOWNLOAD_COMPLETE", "Загрузка завершена!");
 
 ?>

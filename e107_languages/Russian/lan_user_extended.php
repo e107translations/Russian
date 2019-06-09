@@ -19,6 +19,8 @@ define("UE_LAN_8", "Язык");
 define("UE_LAN_9", "Предустановленный список");
 define("UE_LAN_10", "Флажки");
 define("UE_LAN_13", "Страна");
+//v2.2.2
+define("UE_LAN_14", "Поле Rich Text (WYSIWYG)");
 define("UE_LAN_21", "Имя");
 define("UE_LAN_22", "Тип данных");
 define("UE_LAN_23", "Использование");

@@ -10,9 +10,9 @@
 
 **Кодировка:**		utf8 without BOM
 
-**Версия перевода:**	Обновленный релиз (обновлено 05-20-2019)
+**Версия перевода:**	Обновленный релиз (обновлено 06-09-2019)
 
-**Версия e107cms:**		2.2.0
+**Совместимость с версиями e107cms:**		2.1.8, 2.1.9, 2.2.0, 2.2.1
 
 **Обсуждение:**         https://e107-ru.com/forum/forum-system-localization/
 
@@ -21,7 +21,7 @@
 ***
 ### English:
 
-**Name:**	Russian language packs for version 2.2.0
+**Name:**	Russian language packs for version V2
 
 **Description:**	Translation of the Admin Panel, translation of some plugins and Admin theme Bootstrap3.
 
@@ -29,7 +29,7 @@
 
 **Translation version:**	Latest stable release (last update 05-20-2019)
 
-**Version e107cms:**	2.2.0
+**Version e107cms:**	Compatible with 2.1.8, 2.1.9, 2.2.0, 2.2.1
 
 **Discussion:** https://e107-ru.com/forum/forum-system-localization/
 

@@ -496,5 +496,18 @@ define("LAN_NO_RESULTS_FOUND", "Результатов не найдено");
 
 define("LAN_UI_DROPZONE_DROP_FILES", "Для загрузки перетащите файлы сюда");
 define("LAN_DOWNLOAD_COMPLETE", "Загрузка завершена!");
+define("LAN_UI_FILTER_SEARCH_IN_FIELD", "Поиск по Полю");
+define("LAN_ROBOTS", "Роботы");
+define("LAN_ROBOTS_NOINDEX", "Запретить поисковым системам индексировать этот элемент.");
+define("LAN_ROBOTS_NOFOLLOW", "Запретить поисковым системам переходить по ссылкам в этом элементе.");
+define("LAN_ROBOTS_NOARCHIVE", "Запретить отображение кэшированных копий этого элемента в результатах поиска.");
+define("LAN_ROBOTS_NOIMAGE", "Запретить поисковым системам индексировать изображения этого элемента.");
+define("LAN_NAVIGATION", "Навигация");
+define("LAN_NAVIGATION_LINKS", "Навигационные Ссылки");
+define("LAN_PAGINATION", "Нумерация страниц");
+define("LAN_X_CHARS_REMAINING", "[x] символов. требуется");
+define("LAN_UI_BATCH_NOW", "Текущие Дата/Время");
+define("LAN_RELATIONSHIP", "Отношения");
+define("LAN_RELATIONSHIP_HELP", "Необязательный атрибут 'rel'. Запятая - разделитель.");
 
 ?>

@@ -17,3 +17,5 @@ define("METLAN_4", "Пользовательские теги (внутри те
 define("METLAN_5", "Пользовательские теги (после [x])");
 define("METLAN_6", "Пользовательские теги (перед [x])");
 define("METLAN_7", "Все введенные здесь метаданные или пользовательские HTML-теги (например, теги <script> или код аналитики Google) будут включены на каждую страницу веб-сайта в соответствующих областях.");
+define("METLAN_8", "SEO Title Character Limit");
+define("METLAN_9", "SEO Description Character Limit");

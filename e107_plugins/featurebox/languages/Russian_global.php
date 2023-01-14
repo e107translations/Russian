@@ -4,9 +4,7 @@
 *
 *$Author: net1313 $ https://e107-ru.com
 */
-
 define("LAN_PLUGIN_FEATUREBOX_NAME", "Fеaturebox");
 define("LAN_PLUGIN_FEATUREBOX_DESCRIPTION", "Отображает завлекательную анимацию изображений в верхней части вашей страницы, новостей и другого контента.");
 define("LAN_PLUGIN_FEATUREBOX_BATCH", "Создать элемент Featurebox");
-
-?>
+define("LAN_PLUGIN_FEATUREBOX_RSSFEED", "Это rss-канал для записей featurebox.");

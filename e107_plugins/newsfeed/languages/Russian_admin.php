@@ -29,6 +29,6 @@ define("NFLAN_42", "[h=4]Канала имя:[/h]
 	[h=4]Интервал обновления в секундах:[/h]
 	Количество секунд, которые пройти, прежде чем обновления веб-канала, например, 1800: 30 минут, 3600: час.
 	[h=4]Активации:[/h]
-	Где вы хотите результатов каналов для отображения, чтобы увидеть меню каналов, вам будет нужно активировать в меню ленты новостей на [link=".e_ADMIN."menus.php]странице меню[/link]. Хороший список доступных каналов см. [link=https://www.dmoz.org/Computers/Internet/On_the_Web/Syndication_and_Feeds/RSS/Directories/ external]dmoz[/link] or [link=http://www.feedster.com/ external]feedster.com[/link]");
+	Где вы хотите результатов каналов для отображения, чтобы увидеть меню каналов, вам будет нужно активировать в [b]меню ленты новостей[/b] на [link=".e_ADMIN."menus.php]странице меню[/link]. Хороший список доступных каналов см. [link=https://www.dmoz.org/Computers/Internet/On_the_Web/Syndication_and_Feeds/RSS/Directories/ external]dmoz[/link] or [link=http://www.feedster.com/ external]feedster.com[/link]");
 define("NFLAN_45", "Количество элементов для отображения в меню");
 define("NFLAN_46", "Количество элементов для отображения на главной странице");

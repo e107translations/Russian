@@ -29,11 +29,10 @@ define("LAN_USER_21", "Посещения");
 define("LAN_USER_22", "Администратор");
 define("LAN_USER_23", "Права");
 define("LAN_USER_24", "Смена пароля");
-
 define("LAN_USER_31", "Главный администратор");
 define("LAN_USER_32", "Администратор сайта");
 define("LAN_USER_33", "нет информации");
-define("LAN_USER_34", " "); // удалено слово 'назад', так как дублирует такое же в lan date
+define("LAN_USER_34", "назад");
 define("LAN_USER_35", "[скрыто по запросу]");
 define("LAN_USER_36", "Просмотр комментариев пользователя");
 define("LAN_USER_37", "Просмотр сообщений на форуме");
@@ -46,8 +45,7 @@ define("LAN_USER_43", "удалить фотографию");
 define("LAN_USER_44", "Прочее");
 define("LAN_USER_45", "По убыванию");
 define("LAN_USER_46", "По возрастанию");
-
-define("LAN_USER_49", "Нет информации о пользователе, поскольку он не зарегистрирован ");
+define("LAN_USER_49", "Нет информации о пользователе, поскольку он не зарегистрирован");
 define("LAN_USER_50", "Профиль пользователя");
 define("LAN_USER_51", "Несуществующий пользователь");
 define("LAN_USER_52", "Зарегистрированные пользователи");
@@ -59,7 +57,6 @@ define("LAN_USER_57", "Порядок:");
 define("LAN_USER_58", "Пользователь");
 define("LAN_USER_59", "Зарегистрирован");
 define("LAN_USER_60", "Адрес эл. почты:");
-
 define("LAN_USER_62", "Отправить личное сообщение");
 define("LAN_USER_63", "Настоящее имя:");
 define("LAN_USER_64", "Статистика сайта");
@@ -85,45 +82,15 @@ define("LAN_USER_84", "Ваш адрес электронной почты не 
 define("LAN_USER_85", "Если вы хотите изменить ваше имя пользователя, обратитесь к администратору сайта");
 define("LAN_USER_86", "Максимальный размер аватара - [x] x [y] пикселей");
 define("LAN_USER_87", "Войдите, для рейтинга этого пользователя!");
-
 define("LAN_XUP_ERRM_01", "Регистрация не удалась! Эта функция отключена.");
 define("LAN_XUP_ERRM_02", "Регистрация не удалась! Неверный провайдер.");
 define("LAN_XUP_ERRM_03", "Вход не удался! Неверный провайдер.");
 define("LAN_XUP_ERRM_04", "Регистрация не удалась! Пользователь уже залогинен.");
 define("LAN_XUP_ERRM_05", "Регистрация не удалась! Пользователь уже существует. Если это вы, воспользуйтесь кнопкой 'Войти'.");
 define("LAN_XUP_ERRM_06", "Регистрация не удалась! Недоступен адрес электронной почты. Регистрация без электронной почты невозможна.");
-
 define("LAN_XUP_ERRM_07", "Тест входа через Соцсети");
 define("LAN_XUP_ERRM_08", "Выйдите из системы перед тестированием процесса входа/регистрации нового пользователя.");
 define("LAN_XUP_ERRM_09", "Тестовый вход только с [x]");
 define("LAN_XUP_ERRM_10", "Тест регистрации/входа с [x]");
 define("LAN_XUP_ERRM_11", "Войти:");
-define("LAN_XUP_ERRM_12", "Тест выход");
-
-
-// 	- [Berckoff] Used in validator_class for error handling, maybe moved to a more suitable place?
-if (!defined("USER_ERR_01")) { define("USER_ERR_01","Недостающее значение");  }
-if (!defined("USER_ERR_02")) { define("USER_ERR_02","Неожиданное значение");  }
-if (!defined("USER_ERR_03")) { define("USER_ERR_03","Значение содержит недопустимые символы");  }
-if (!defined("USER_ERR_04")) { define("USER_ERR_04","Значение слишком короткое");  }
-if (!defined("USER_ERR_05")) { define("USER_ERR_05","Значение слишком длинное");  }
-if (!defined("USER_ERR_06")) { define("USER_ERR_06","Дубликат значения");  }
-if (!defined("USER_ERR_07")) { define("USER_ERR_07","Значение не допускается");  }
-if (!defined("USER_ERR_08")) { define("USER_ERR_08","Ввод отключен");  }
-if (!defined("USER_ERR_09")) { define("USER_ERR_09","Недопустимое слово");  }
-if (!defined("USER_ERR_10")) { define("USER_ERR_10","Поля для пароля не совпадают");  }
-if (!defined("USER_ERR_11")) { define("USER_ERR_11","email в бан-листе");  }
-if (!defined("USER_ERR_12")) { define("USER_ERR_12","Недопустимый формат для адреса эл. почты");  }
-if (!defined("USER_ERR_13")) { define("USER_ERR_13","Ошибка в данных");  }
-if (!defined("USER_ERR_14")) { define("USER_ERR_14","Запрещенный пользователь");  }
-if (!defined("USER_ERR_15")) { define("USER_ERR_15","Имя пользователя и отображаемое имя не могут быть разными");  }
-if (!defined("USER_ERR_16")) { define("USER_ERR_16","Ошибка программы");  }
-if (!defined("USER_ERR_17")) { define("USER_ERR_17","Слишком низкое значение");  }
-if (!defined("USER_ERR_18")) { define("USER_ERR_18","Слишком высокое значение");  }
-if (!defined("USER_ERR_19")) { define("USER_ERR_19","Общая ошибка");  }
-if (!defined("USER_ERR_20")) { define("USER_ERR_20","Изображение слишком широкое");  }
-if (!defined("USER_ERR_21")) { define("USER_ERR_21","Изображение слишком высокое");  }
-if (!defined("USER_ERR_22")) { define("USER_ERR_22","Неопределенная ошибка");  }
-if (!defined("USER_ERR_23")) { define("USER_ERR_23","Недопустимое значение (точное совпадение)");  }
-
-?>
+define("LAN_XUP_ERRM_12", "Тест выхода");

@@ -10,9 +10,9 @@
 
 **Кодировка:**		utf8 without BOM
 
-**Версия перевода:**	Обновленный релиз (обновлено 06-09-2019)
+**Версия перевода:**	Обновленный релиз (обновлено 20-12-2012)
 
-**Совместимость с версиями e107cms:**		2.1.8, 2.1.9, 2.2.0, 2.2.1
+**Совместимость с версиями e107cms:**		2.1.8, 2.1.9, 2.2.0, 2.2.1, 2.3.1
 
 **Обсуждение:**         https://e107-ru.com/forum/forum-system-localization/
 
@@ -27,9 +27,9 @@
 
 **Charset:**		utf8 without BOM
 
-**Translation version:**	Latest stable release (last update 05-20-2019)
+**Translation version:**	Latest stable release (last update 12-20-2021)
 
-**Version e107cms:**	Compatible with 2.1.8, 2.1.9, 2.2.0, 2.2.1
+**Version e107cms:**	Compatible with 2.1.8, 2.1.9, 2.2.0, 2.2.1, 2.3.1
 
 **Discussion:** https://e107-ru.com/forum/forum-system-localization/
 

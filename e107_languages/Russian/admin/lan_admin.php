@@ -4,7 +4,7 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2019/02/17 00:25:30
+|        Last Modified: 2023/12/05 14:24:52 
 |
 |        $Author: net1313 $https://e107-ru.com
 +---------------------------------------------------------------+
@@ -430,3 +430,6 @@ define("LAN_UI_FILTER_THIS_YEAR", "Этот год");
 define("LAN_SEARCH_ENGINES_X_LIMIT", "Read by search engines. Maximum [x] characters");
 define("LAN_META_TITLE", "Meta Title");
 define("LAN_META_DESCRIPTION", "Meta Description");
+define("LAN_SYSTEM_NOTIFICATIONS_X", "[x] Системное(ые) уведомление(я)");
+define("LAN_PHP_OUTDATED", "В настоящее время на вашем сайте используется [устаревшая версия PHP], что может представлять угрозу безопасности. Если ваши плагины позволяют это сделать, мы рекомендуем обновить их до [x], чтобы обеспечить безопасность и актуальность вашего сайта.");
+define("LAN_DATABASE_UPDATE", "Для вашей базы данных доступно обновление. Мы рекомендуем [запустить это обновление] как можно скорее, чтобы обеспечить безопасность и актуальность вашей базы данных.");

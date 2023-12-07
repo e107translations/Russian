@@ -4,7 +4,7 @@
 |        e107 website content management system Russian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2018/01/03 01:47:22
+|        Last Modified: 2023/12/05 14:24:52 
 |
 |        $Author: net1313 $
 +---------------------------------------------------------------+
@@ -38,4 +38,4 @@ define("NM_LAN_3", "Адрес Электорнной Почты =>");
 define("NF_LAN_1", "Файлы");
 define("NF_LAN_2", "Файл загружен пользователем");
 define("LAN_NOTIFY_01", "События");
-define("NU_LAN_10", "User IP changed");
+define("NU_LAN_10", "IP пользователя изменен");
